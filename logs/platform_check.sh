@@ -8,7 +8,8 @@ set -eu
 # It is assumed that SCRAM runs without issues.
 
 readonly CHECK_PREFIX="check_"  # The prefix for logs generated for checking.
-readonly ALGOS="bdd zbdd mocus"  # Algorithms to check.
+readonly ALGOS="bdd zbdd mocus"  # Qualitative algorithms to check.
+readonly CALCS="bdd rare-event mcub"  # Quantitative algorithms.
 readonly GEN_INPUTS="baobab1 baobab2 chinese"  # General inputs.
 readonly CEA_CHECK="bdd_cea9601.scram"  # Special input.
 
@@ -66,6 +67,26 @@ _run_cea() {
 }
 
 ########################################
+# Runs Uncertainty analysis inputs.
+#
+# Globals:
+#   CALCS
+# Arguments:
+#   The prefix for output log files.
+# Returns:
+#   None
+########################################
+_run_uncertainty() {
+  local config="--uncertainty true --seed 123"
+  for calc in ${CALCS}; do
+    local prefix="${1}${calc}_"
+    scram input/BSCU/BSCU.xml --${calc} ${config} \
+      | grep -P '(mean|standard)' > logs/${prefix}BSCU.scram
+  done
+
+}
+
+########################################
 # Gathers all logs from SCRAM runs.
 #
 # Globals:
@@ -80,6 +101,7 @@ _gather_logs() {
   _run_general_inputs zbdd "$1"
   _run_general_inputs mocus "$1"
   _run_cea "$1"
+  _run_uncertainty "$1"
 }
 
 
@@ -112,6 +134,7 @@ _diff_remove() {
 # Globals:
 #   CHECK_PREFIX
 #   ALGOS
+#   CALCS
 #   GEN_INPUTS
 #   CEA_CHECK
 # Arguments:
@@ -129,6 +152,12 @@ _filter_diffs() {
       _diff_remove "logs/${CHECK_PREFIX}${input_name}" "logs/${input_name}" \
         || ret=1
     done
+  done
+
+  for calc in ${CALCS}; do
+    local input_name="${calc}_BSCU.scram"
+    _diff_remove "logs/${CHECK_PREFIX}${input_name}" "logs/${input_name}" \
+      || ret=1
   done
   return $ret
 }
