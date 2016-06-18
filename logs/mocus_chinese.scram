@@ -1,0 +1,412 @@
+DEBUG1: 	Processing input files
+DEBUG1: 	Validating the input files
+DEBUG1: 	Setting up for the analysis
+DEBUG2: 		Collecting top events of fault trees...
+DEBUG2: 		Applying CCF models...
+INFO: Running analysis: r1
+DEBUG2: 		Preprocessing...
+DEBUG2: 		Preprocessing Phase I...
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 36
+DEBUG4: 				# of modules: 0
+DEBUG4: 				# of gates with negative indices: 0
+DEBUG4: 				# of gates with positive and negative indices: 0
+DEBUG5: 					AND gates: 13
+DEBUG5: 					OR gates: 23
+DEBUG4: 				Total # of variables: 25
+DEBUG4: 				# of variables with negative indices: 0
+DEBUG4: 				# of variables with positive and negative indices: 0
+DEBUG2: 		Preprocessing Phase II...
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 36
+DEBUG4: 				# of modules: 0
+DEBUG4: 				# of gates with negative indices: 0
+DEBUG4: 				# of gates with positive and negative indices: 0
+DEBUG5: 					AND gates: 13
+DEBUG5: 					OR gates: 23
+DEBUG4: 				Total # of variables: 25
+DEBUG4: 				# of variables with negative indices: 0
+DEBUG4: 				# of variables with positive and negative indices: 0
+DEBUG3: 			Detecting multiple definitions...
+DEBUG4: 				7 gates are multiply defined.
+DEBUG5: 					Gate 1000034: 1 times.
+DEBUG5: 					Gate 1000033: 1 times.
+DEBUG5: 					Gate 1000035: 1 times.
+DEBUG5: 					Gate 1000028: 1 times.
+DEBUG5: 					Gate 1000027: 1 times.
+DEBUG5: 					Gate 1000025: 1 times.
+DEBUG5: 					Gate 1000024: 1 times.
+DEBUG4: 				3 gates are multiply defined.
+DEBUG5: 					Gate 1000032: 1 times.
+DEBUG5: 					Gate 1000023: 1 times.
+DEBUG5: 					Gate 1000026: 1 times.
+DEBUG4: 				2 gates are multiply defined.
+DEBUG5: 					Gate 1000031: 1 times.
+DEBUG5: 					Gate 1000022: 1 times.
+DEBUG4: 				2 gates are multiply defined.
+DEBUG5: 					Gate 1000030: 1 times.
+DEBUG5: 					Gate 1000021: 1 times.
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG4: 				Found original module: G1000035
+DEBUG4: 				Created a module G1000036 with 3 arguments for G1000031
+DEBUG4: 				Found original module: G1000028
+DEBUG4: 				Found original module: G1000027
+DEBUG4: 				Found original module: G1000026
+DEBUG4: 				Created a module G1000037 with 3 arguments for G1000022
+DEBUG4: 				Found original module: G1000000
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG3: 			Merging common arguments...
+DEBUG4: 				Merging common arguments for AND gates...
+DEBUG5: 					Clearing node counts...
+DEBUG5: 					Node counts are clear!
+DEBUG4: 				Working with 7 modules...
+DEBUG4: 				Finished merging for AND gates!
+DEBUG4: 				Merging common arguments for OR gates...
+DEBUG5: 					Clearing node counts...
+DEBUG5: 					Node counts are clear!
+DEBUG4: 				Working with 7 modules...
+DEBUG4: 				Merging 2 collection...
+DEBUG4: 				Transforming 2 table groups...
+DEBUG5: 					Merging 3 args into a new gate
+DEBUG5: 					The number of common parents: 2
+DEBUG5: 					Merging 4 args into a new gate
+DEBUG5: 					The number of common parents: 2
+DEBUG4: 				Finished merging for OR gates!
+DEBUG3: 			Processing Distributivity...
+DEBUG5: 					Considering 2 candidates...
+DEBUG5: 					Considering 2 candidates...
+DEBUG5: 					Considering 2 candidates...
+DEBUG5: 					Considering 3 candidates...
+DEBUG3: 			Distributivity detection is done!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG4: 				Found original module: G1000039
+DEBUG4: 				Found original module: G1000025
+DEBUG4: 				Found original module: G1000034
+DEBUG4: 				Found original module: G1000038
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Boolean optimization...
+DEBUG5: 					Clearing OptiValues...
+DEBUG5: 					Node OptiValues are clear!
+DEBUG5: 					Clearing gate descendant marks...
+DEBUG5: 					Descendant marks are clear!
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG3: 			Decomposition of common nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG5: 					Clearing gate descendant marks...
+DEBUG5: 					Descendant marks are clear!
+DEBUG5: 					Clearing gate descendant marks...
+DEBUG5: 					Descendant marks are clear!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 25
+DEBUG4: 				# of modules: 11
+DEBUG4: 				# of gates with negative indices: 0
+DEBUG4: 				# of gates with positive and negative indices: 0
+DEBUG5: 					AND gates: 7
+DEBUG5: 					OR gates: 18
+DEBUG4: 				Total # of variables: 25
+DEBUG4: 				# of variables with negative indices: 0
+DEBUG4: 				# of variables with positive and negative indices: 0
+DEBUG2: 		Preprocessing Phase V...
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 25
+DEBUG4: 				# of modules: 11
+DEBUG4: 				# of gates with negative indices: 0
+DEBUG4: 				# of gates with positive and negative indices: 0
+DEBUG5: 					AND gates: 7
+DEBUG5: 					OR gates: 18
+DEBUG4: 				Total # of variables: 25
+DEBUG4: 				# of variables with negative indices: 0
+DEBUG4: 				# of variables with positive and negative indices: 0
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 25
+DEBUG4: 				# of modules: 11
+DEBUG4: 				# of gates with negative indices: 0
+DEBUG4: 				# of gates with positive and negative indices: 0
+DEBUG5: 					AND gates: 7
+DEBUG5: 					OR gates: 18
+DEBUG4: 				Total # of variables: 25
+DEBUG4: 				# of variables with negative indices: 0
+DEBUG4: 				# of variables with positive and negative indices: 0
+DEBUG3: 			Detecting multiple definitions...
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG3: 			Merging common arguments...
+DEBUG4: 				Merging common arguments for AND gates...
+DEBUG5: 					Clearing node counts...
+DEBUG5: 					Node counts are clear!
+DEBUG4: 				Working with 11 modules...
+DEBUG4: 				Finished merging for AND gates!
+DEBUG4: 				Merging common arguments for OR gates...
+DEBUG5: 					Clearing node counts...
+DEBUG5: 					Node counts are clear!
+DEBUG4: 				Working with 11 modules...
+DEBUG4: 				Finished merging for OR gates!
+DEBUG3: 			Processing Distributivity...
+DEBUG5: 					Considering 2 candidates...
+DEBUG5: 					Considering 3 candidates...
+DEBUG3: 			Distributivity detection is done!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Boolean optimization...
+DEBUG5: 					Clearing OptiValues...
+DEBUG5: 					Node OptiValues are clear!
+DEBUG5: 					Clearing gate descendant marks...
+DEBUG5: 					Descendant marks are clear!
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG3: 			Decomposition of common nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG5: 					Clearing gate descendant marks...
+DEBUG5: 					Descendant marks are clear!
+DEBUG5: 					Clearing gate descendant marks...
+DEBUG5: 					Descendant marks are clear!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 25
+DEBUG4: 				# of modules: 11
+DEBUG4: 				# of gates with negative indices: 0
+DEBUG4: 				# of gates with positive and negative indices: 0
+DEBUG5: 					AND gates: 7
+DEBUG5: 					OR gates: 18
+DEBUG4: 				Total # of variables: 25
+DEBUG4: 				# of variables with negative indices: 0
+DEBUG4: 				# of variables with positive and negative indices: 0
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 25
+DEBUG4: 				# of modules: 11
+DEBUG4: 				# of gates with negative indices: 0
+DEBUG4: 				# of gates with positive and negative indices: 0
+DEBUG5: 					AND gates: 7
+DEBUG5: 					OR gates: 18
+DEBUG4: 				Total # of variables: 25
+DEBUG4: 				# of variables with negative indices: 0
+DEBUG4: 				# of variables with positive and negative indices: 0
+DEBUG5: 					Clearing node order marks...
+DEBUG5: 					Node order marks are clear!
+DEBUG5: 					Clearing node visit times...
+DEBUG5: 					Node visit times are clear!
+DEBUG2: 		Launching the algorithm...
+DEBUG2: 		Start minimal cut set generation.
+DEBUG3: 			Finding cut sets from module: G1000000
+DEBUG4: 				Limit on product order: 20
+DEBUG5: 					Expanding gate G1000001
+DEBUG5: 					Extracting cut sets for G1000001
+DEBUG5: 					Expanding gate G1000018
+DEBUG5: 					Extracting cut sets for G1000018
+DEBUG5: 					Expanding gate G1000019
+DEBUG5: 					Extracting cut sets for G1000019
+DEBUG5: 					Expanding gate G1000020
+DEBUG5: 					Extracting cut sets for G1000020
+DEBUG5: 					Expanding gate G1000029
+DEBUG5: 					Extracting cut sets for G1000029
+DEBUG5: 					Expanding gate G1000030
+DEBUG5: 					Extracting cut sets for G1000030
+DEBUG5: 					Expanding gate G1000031
+DEBUG5: 					Extracting cut sets for G1000031
+DEBUG5: 					Expanding gate G1000032
+DEBUG5: 					Extracting cut sets for G1000032
+DEBUG5: 					Expanding gate G1000033
+DEBUG5: 					Extracting cut sets for G1000033
+DEBUG5: 					Expanding gate G1000009
+DEBUG5: 					Extracting cut sets for G1000009
+DEBUG5: 					Expanding gate G1000021
+DEBUG5: 					Extracting cut sets for G1000021
+DEBUG5: 					Expanding gate G1000022
+DEBUG5: 					Extracting cut sets for G1000022
+DEBUG5: 					Expanding gate G1000023
+DEBUG5: 					Extracting cut sets for G1000023
+DEBUG5: 					Expanding gate G1000024
+DEBUG5: 					Extracting cut sets for G1000024
+DEBUG4: 				# of ZBDD nodes created: 159
+DEBUG4: 				# of entries in unique table: 140
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 22
+DEBUG4: 				# of products: 11
+DEBUG3: 			Finding cut sets from module: G1000026
+DEBUG4: 				Limit on product order: 17
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 1
+DEBUG3: 			Finding cut sets from module: G1000028
+DEBUG4: 				Limit on product order: 19
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG3: 			Finding cut sets from module: G1000027
+DEBUG4: 				Limit on product order: 19
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG3: 			Finding cut sets from module: G1000037
+DEBUG4: 				Limit on product order: 17
+DEBUG4: 				# of ZBDD nodes created: 6
+DEBUG4: 				# of entries in unique table: 5
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG3: 			Finding cut sets from module: G1000039
+DEBUG4: 				Limit on product order: 19
+DEBUG4: 				# of ZBDD nodes created: 8
+DEBUG4: 				# of entries in unique table: 7
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 4
+DEBUG4: 				# of products: 4
+DEBUG3: 			Finding cut sets from module: G1000038
+DEBUG4: 				Limit on product order: 19
+DEBUG4: 				# of ZBDD nodes created: 6
+DEBUG4: 				# of entries in unique table: 5
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG3: 			Finding cut sets from module: G1000035
+DEBUG4: 				Limit on product order: 17
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG3: 			Finding cut sets from module: G1000034
+DEBUG4: 				Limit on product order: 17
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG3: 			Finding cut sets from module: G1000025
+DEBUG4: 				Limit on product order: 17
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG3: 			Finding cut sets from module: G1000036
+DEBUG4: 				Limit on product order: 17
+DEBUG4: 				# of ZBDD nodes created: 6
+DEBUG4: 				# of entries in unique table: 5
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Delegating cut set extraction to ZBDD.
+DEBUG3: 			Getting products from minimized ZBDD: G1000036
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000025
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000034
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000035
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000027
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000028
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000026
+DEBUG4: 				# of generated products: 4
+DEBUG3: 			Getting products from minimized ZBDD: G1000037
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000039
+DEBUG4: 				# of generated products: 4
+DEBUG3: 			Getting products from minimized ZBDD: G1000038
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000000
+DEBUG4: 				# of generated products: 392
+DEBUG2: 		# of products: 392
+INFO: Finished analysis: r1
+DEBUG1: 	Reporting analysis results...
+DEBUG2: 		Reporting products for r1...

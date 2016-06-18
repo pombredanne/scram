@@ -1,0 +1,455 @@
+DEBUG1: 	Processing input files
+DEBUG1: 	Validating the input files
+DEBUG1: 	Setting up for the analysis
+DEBUG2: 		Collecting top events of fault trees...
+DEBUG2: 		Applying CCF models...
+INFO: Running analysis: r1
+DEBUG2: 		Preprocessing...
+DEBUG2: 		Preprocessing Phase I...
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 201
+DEBUG4: 				# of modules: 0
+DEBUG4: 				# of gates with negative indices: 0
+DEBUG4: 				# of gates with positive and negative indices: 0
+DEBUG4: 				Total # of variables: 186
+DEBUG4: 				# of variables with negative indices: 0
+DEBUG4: 				# of variables with positive and negative indices: 0
+DEBUG3: 			Partial normalization of gates...
+DEBUG3: 			Finished the partial normalization of gates!
+DEBUG2: 		Preprocessing Phase II...
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 171
+DEBUG4: 				# of modules: 0
+DEBUG4: 				# of gates with negative indices: 26
+DEBUG4: 				# of gates with positive and negative indices: 0
+DEBUG4: 				Total # of variables: 186
+DEBUG4: 				# of variables with negative indices: 4
+DEBUG4: 				# of variables with positive and negative indices: 4
+DEBUG3: 			Detecting multiple definitions...
+DEBUG4: 				1 gates are multiply defined.
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG4: 				Found original module: G1000107
+DEBUG4: 				Found original module: G1000106
+DEBUG4: 				Found original module: G1000060
+DEBUG4: 				Created a module G1000201 with 6 arguments for G1000200
+DEBUG4: 				Found original module: G1000195
+DEBUG4: 				Found original module: G1000194
+DEBUG4: 				Found original module: G1000193
+DEBUG4: 				Created a module G1000202 with 3 arguments for G1000199
+DEBUG4: 				Created a module G1000203 with 6 arguments for G1000198
+DEBUG4: 				Created a module G1000204 with 3 arguments for G1000197
+DEBUG4: 				Created a module G1000205 with 3 arguments for G1000061
+DEBUG4: 				Created a module G1000206 with 3 arguments for G1000003
+DEBUG4: 				Found original module: G1000000
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG3: 			Merging common arguments...
+DEBUG4: 				Merging common arguments for AND gates...
+DEBUG4: 				Working with 13 modules...
+DEBUG4: 				Finished merging for AND gates!
+DEBUG4: 				Merging common arguments for OR gates...
+DEBUG4: 				Working with 13 modules...
+DEBUG4: 				Merging 2 collection...
+DEBUG4: 				Transforming 2 table groups...
+DEBUG4: 				Merging 7 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG4: 				Merging 14 collection...
+DEBUG4: 				Transforming 2 table groups...
+DEBUG4: 				Merging 7 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG4: 				Merging 2 collection...
+DEBUG4: 				Transforming 2 table groups...
+DEBUG4: 				Merging 7 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG4: 				Merging 7 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG4: 				Merging 7 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG4: 				Merging 7 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG4: 				Finished merging for OR gates!
+DEBUG3: 			Processing Distributivity...
+DEBUG4: 				Got 2 distributive option(s).
+DEBUG4: 				Found 1 distributive group(s).
+DEBUG3: 			Distributivity detection is done!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG4: 				Found original module: G1000105
+DEBUG4: 				Created a module G1000238 with 3 arguments for G1000222
+DEBUG4: 				Created a module G1000239 with 2 arguments for G1000221
+DEBUG4: 				Found original module: G1000192
+DEBUG4: 				Created a module G1000240 with 3 arguments for G1000208
+DEBUG4: 				Created a module G1000241 with 2 arguments for G1000207
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Boolean optimization...
+DEBUG4: 				Node 1000105: 1 redundant parent(s) and 2 failure destination(s)
+DEBUG4: 				Node 1000213: 1 redundant parent(s) and 2 failure destination(s)
+DEBUG4: 				Node 1000192: 1 redundant parent(s) and 3 failure destination(s)
+DEBUG4: 				Node 1000210: 1 redundant parent(s) and 2 failure destination(s)
+DEBUG4: 				Node 1000219: 1 redundant parent(s) and 2 failure destination(s)
+DEBUG4: 				Node 1000212: 1 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 1000232: 1 redundant parent(s) and 28 failure destination(s)
+DEBUG4: 				Node 1000216: 1 redundant parent(s) and 2 failure destination(s)
+DEBUG4: 				Node 1000226: 1 redundant parent(s) and 20 failure destination(s)
+DEBUG4: 				Node 1000209: 1 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 1000218: 1 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 1000230: 1 redundant parent(s) and 14 failure destination(s)
+DEBUG4: 				Node 1000215: 1 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 1000224: 1 redundant parent(s) and 6 failure destination(s)
+DEBUG4: 				Node 1000229: 1 redundant parent(s) and 28 failure destination(s)
+DEBUG4: 				Node 1000223: 1 redundant parent(s) and 12 failure destination(s)
+DEBUG3: 			Decomposition of common nodes...
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 196
+DEBUG4: 				# of modules: 19
+DEBUG4: 				# of gates with negative indices: 26
+DEBUG4: 				# of gates with positive and negative indices: 2
+DEBUG4: 				Total # of variables: 186
+DEBUG4: 				# of variables with negative indices: 4
+DEBUG4: 				# of variables with positive and negative indices: 4
+DEBUG2: 		Preprocessing Phase III...
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 196
+DEBUG4: 				# of modules: 19
+DEBUG4: 				# of gates with negative indices: 26
+DEBUG4: 				# of gates with positive and negative indices: 2
+DEBUG4: 				Total # of variables: 186
+DEBUG4: 				# of variables with negative indices: 4
+DEBUG4: 				# of variables with positive and negative indices: 4
+DEBUG3: 			Full normalization of gates...
+DEBUG3: 			Finished the full normalization of gates!
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 244
+DEBUG4: 				# of modules: 19
+DEBUG4: 				# of gates with negative indices: 26
+DEBUG4: 				# of gates with positive and negative indices: 2
+DEBUG4: 				Total # of variables: 186
+DEBUG4: 				# of variables with negative indices: 4
+DEBUG4: 				# of variables with positive and negative indices: 4
+DEBUG3: 			Detecting multiple definitions...
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG3: 			Merging common arguments...
+DEBUG4: 				Merging common arguments for AND gates...
+DEBUG4: 				Working with 19 modules...
+DEBUG4: 				Finished merging for AND gates!
+DEBUG4: 				Merging common arguments for OR gates...
+DEBUG4: 				Working with 19 modules...
+DEBUG4: 				Merging 65 collection...
+DEBUG4: 				Transforming 26 table groups...
+DEBUG4: 				Merging 13 collection...
+DEBUG4: 				Transforming 8 table groups...
+DEBUG4: 				Merging 1 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG4: 				Merging 1 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG4: 				Finished merging for OR gates!
+DEBUG3: 			Processing Distributivity...
+DEBUG3: 			Distributivity detection is done!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Boolean optimization...
+DEBUG4: 				Node 1000105: 1 redundant parent(s) and 2 failure destination(s)
+DEBUG4: 				Node 1000192: 1 redundant parent(s) and 3 failure destination(s)
+DEBUG4: 				Node 1000232: 10 redundant parent(s) and 32 failure destination(s)
+DEBUG4: 				Node 1000212: 4 redundant parent(s) and 8 failure destination(s)
+DEBUG4: 				Node 1000223: 8 redundant parent(s) and 16 failure destination(s)
+DEBUG4: 				Node 1000218: 4 redundant parent(s) and 8 failure destination(s)
+DEBUG4: 				Node 1000226: 10 redundant parent(s) and 24 failure destination(s)
+DEBUG4: 				Node 1000209: 4 redundant parent(s) and 8 failure destination(s)
+DEBUG4: 				Node 1000229: 9 redundant parent(s) and 24 failure destination(s)
+DEBUG4: 				Node 1000215: 4 redundant parent(s) and 8 failure destination(s)
+DEBUG4: 				Node 11: 2 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 10: 2 redundant parent(s) and 16 failure destination(s)
+DEBUG4: 				Node 39: 2 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 33: 4 redundant parent(s) and 8 failure destination(s)
+DEBUG4: 				Node 51: 2 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 45: 2 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 22: 4 redundant parent(s) and 8 failure destination(s)
+DEBUG4: 				Node 114: 2 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 23: 2 redundant parent(s) and 12 failure destination(s)
+DEBUG4: 				Node 128: 2 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 113: 2 redundant parent(s) and 16 failure destination(s)
+DEBUG4: 				Node 134: 2 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 131: 2 redundant parent(s) and 4 failure destination(s)
+DEBUG4: 				Node 125: 2 redundant parent(s) and 8 failure destination(s)
+DEBUG4: 				Node 120: 2 redundant parent(s) and 12 failure destination(s)
+DEBUG4: 				Node 119: 2 redundant parent(s) and 16 failure destination(s)
+DEBUG3: 			Decomposition of common nodes...
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG3: 			Coalescing gates...
+DEBUG3: 			Gate coalescence is done!
+DEBUG3: 			Detecting modules...
+DEBUG4: 				Assigning timings to nodes...
+DEBUG4: 				Timings are assigned to nodes.
+DEBUG3: 			Finished module detection!
+DEBUG4: 				Boolean graph with root G1000000
+DEBUG4: 				Total # of gates: 234
+DEBUG4: 				# of modules: 19
+DEBUG4: 				# of gates with negative indices: 26
+DEBUG4: 				# of gates with positive and negative indices: 2
+DEBUG4: 				Total # of variables: 186
+DEBUG4: 				# of variables with negative indices: 4
+DEBUG4: 				# of variables with positive and negative indices: 4
+DEBUG2: 		Launching the algorithm...
+DEBUG3: 			Converting Boolean graph into BDD...
+DEBUG4: 				# of BDD vertices created: 2887410
+DEBUG4: 				# of entries in unique table: 2604752
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of ITE in BDD: 1123292
+DEBUG2: 		Creating ZBDD from BDD: G0
+DEBUG4: 				Limit on product order: 4
+DEBUG4: 				# of ZBDD nodes created: 2667
+DEBUG4: 				# of entries in unique table: 2666
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 12615
+DEBUG4: 				# of entries in minimal table: 1999
+DEBUG4: 				# of SetNodes in ZBDD: 1488
+DEBUG4: 				# of products: 28754
+DEBUG2: 		Creating ZBDD from BDD: G1000206
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000202
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000205
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000204
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000241
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG2: 		Creating ZBDD from BDD: G1000203
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 7
+DEBUG4: 				# of entries in unique table: 6
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 6
+DEBUG4: 				# of SetNodes in ZBDD: 6
+DEBUG4: 				# of products: 6
+DEBUG2: 		Creating ZBDD from BDD: G1000240
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000194
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG2: 		Creating ZBDD from BDD: G1000195
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 1
+DEBUG2: 		Creating ZBDD from BDD: G1000106
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG2: 		Creating ZBDD from BDD: G1000107
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 1
+DEBUG2: 		Creating ZBDD from BDD: G1000192
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000193
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 1
+DEBUG2: 		Creating ZBDD from BDD: G1000238
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000239
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG2: 		Creating ZBDD from BDD: G1000105
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000060
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 1
+DEBUG2: 		Creating ZBDD from BDD: G1000201
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 7
+DEBUG4: 				# of entries in unique table: 6
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 6
+DEBUG4: 				# of SetNodes in ZBDD: 6
+DEBUG4: 				# of products: 6
+DEBUG3: 			Getting products from minimized ZBDD: G1000201
+DEBUG4: 				# of generated products: 6
+DEBUG3: 			Getting products from minimized ZBDD: G1000060
+DEBUG4: 				# of generated products: 1
+DEBUG3: 			Getting products from minimized ZBDD: G1000105
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000239
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000204
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000205
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000107
+DEBUG4: 				# of generated products: 1
+DEBUG3: 			Getting products from minimized ZBDD: G1000106
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000202
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000206
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000241
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000203
+DEBUG4: 				# of generated products: 6
+DEBUG3: 			Getting products from minimized ZBDD: G1000238
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000193
+DEBUG4: 				# of generated products: 1
+DEBUG3: 			Getting products from minimized ZBDD: G1000192
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000195
+DEBUG4: 				# of generated products: 1
+DEBUG3: 			Getting products from minimized ZBDD: G1000194
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000240
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G0
+DEBUG4: 				# of generated products: 54436
+DEBUG2: 		# of products: 54436
+INFO: Finished analysis: r1
+DEBUG1: 	Reporting analysis results...
+DEBUG2: 		Reporting products for r1...

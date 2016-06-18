@@ -10,6 +10,8 @@ else
   ./install.py -d --prefix=./install --threads 2
 fi
 
+./logs/platform_check.sh && exit 0  # Only check for platform differences.
+
 ./.travis/run_tests.sh
 
 [[ -z "${RELEASE}" && "$CXX" = "g++" ]] || exit 0
