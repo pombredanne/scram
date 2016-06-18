@@ -3,14 +3,14 @@
 set -ev
 
 if [[ -n "${RELEASE}" ]]; then
-  ./install.py -r --prefix=./install --threads 2
-elif [[ "$CXX" = "g++" ]]; then
-  ./install.py -p --prefix=./install --threads 2
+  ./install.py -r --prefix=./install --threads 2 -DNGUI=1
 else
-  ./install.py -d --prefix=./install --threads 2
+  ./install.py -d --prefix=./install --threads 2 -DNGUI=1
 fi
 
-./logs/platform_check.sh && exit 0  # Only check for platform differences.
+./logs/platform_check.sh
+
+exit 0  # Only check for platform differences.
 
 ./.travis/run_tests.sh
 

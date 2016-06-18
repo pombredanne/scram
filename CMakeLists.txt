@@ -177,7 +177,7 @@ include_directories(SYSTEM ${Glibmm_INCLUDE_DIRS})
 
 add_subdirectory("${SCRAM_SOURCE_DIR}")
 add_subdirectory("${SCRAM_SHARE_DIR}")
-add_subdirectory("${SCRAM_TEST_DIR}")
+# add_subdirectory("${SCRAM_TEST_DIR}")
 add_subdirectory("${SCRAM_INPUT_DIR}")
 
 if(NOT NGUI)
@@ -215,12 +215,12 @@ if(WIN32)
   )
 
   # Qt Libraries
-  install(FILES
-    ${MINGW_DLL_DIR}/Qt5Core.dll
-    ${MINGW_DLL_DIR}/Qt5Gui.dll
-    ${MINGW_DLL_DIR}/Qt5Widgets.dll
-    DESTINATION bin COMPONENT libraries
-  )
+  #  install(FILES
+  #    ${MINGW_DLL_DIR}/Qt5Core.dll
+  #    ${MINGW_DLL_DIR}/Qt5Gui.dll
+  #    ${MINGW_DLL_DIR}/Qt5Widgets.dll
+  #    DESTINATION bin COMPONENT libraries
+  #  )
 endif()
 
 set(CPACK_PACKAGE_VENDOR "Olzhas Rakhimov")

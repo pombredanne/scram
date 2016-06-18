@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eu
+set -euo pipefail
 
 # Runs SCRAM to gather and compare performance profile logs.
 # The script terminates hard
@@ -13,6 +13,9 @@ readonly CALCS="bdd rare-event mcub"  # Quantitative algorithms.
 readonly GEN_INPUTS="baobab1 baobab2 chinese"  # General inputs.
 readonly CEA_CHECK="bdd_cea9601.scram"  # Special input.
 
+diff_flags="-E -Z -w -t --tabsize=2 -y -W 160 --suppress-common-lines"
+
+
 ########################################
 # Filters unstable parts of SCRAM logs.
 #
@@ -24,7 +27,7 @@ readonly CEA_CHECK="bdd_cea9601.scram"  # Special input.
 #   None
 ########################################
 _filter() {
-  grep -P -v '(in \d+(\.\d+)?|time:? \d+(\.\d+)?)'
+  grep -E -v '(in [[:digit:]]+(\.[[:digit:]]+)?|time:? [[:digit:]]+(\.[[:digit:]]+)?)'
 }
 
 ########################################
@@ -41,11 +44,11 @@ _filter() {
 _run_general_inputs() {
   local default_config="-o /dev/null --verbosity 7"
   local prefix="${2}${1}_"
-  scram --$1 input/Baobab/baobab1*.xml $default_config 2>&1 | _filter > \
+  scram --$1 input/Baobab/baobab1*.xml ${default_config} 2>&1 | _filter > \
     logs/${prefix}baobab1.scram
-  scram --$1 input/Baobab/baobab2*.xml $default_config 2>&1 | _filter > \
+  scram --$1 input/Baobab/baobab2*.xml ${default_config} 2>&1 | _filter > \
     logs/${prefix}baobab2.scram
-  scram --$1 input/Chinese/chinese*.xml $default_config 2>&1 | _filter > \
+  scram --$1 input/Chinese/chinese*.xml ${default_config} 2>&1 | _filter > \
     logs/${prefix}chinese.scram
 }
 
@@ -81,7 +84,7 @@ _run_uncertainty() {
   for calc in ${CALCS}; do
     local prefix="${1}${calc}_"
     scram input/BSCU/BSCU.xml --${calc} ${config} \
-      | grep -P '(mean|standard)' > logs/${prefix}BSCU.scram
+      | grep -E '(mean|standard)' > logs/${prefix}BSCU.scram
   done
 
 }
@@ -110,7 +113,7 @@ _gather_logs() {
 # if it's no differnt than the second.
 #
 # Globals:
-#   None
+#   diff_flags
 # Arguments:
 #   File one.
 #   File two.
@@ -122,7 +125,7 @@ _diff_remove() {
   echo "================================================================"
   echo ${1} "    |    "${2}
   echo "----------------------------------------------------------------"
-  diff ${1} ${2} && rm ${1} || ret=1
+  diff ${diff_flags} ${1} ${2} && rm ${1} || ret=1
   echo -e "================================================================\n"
   return $ret
 }
@@ -167,6 +170,7 @@ _filter_diffs() {
 #
 # Globals:
 #   CHECK_PREFIX
+#   diff_flags
 # Arguments:
 #   'update' arg for update only.
 # Returns:
@@ -176,7 +180,9 @@ main() {
   which scram > /dev/null
   [[ -d logs ]] && [[ -d input ]]
 
-  if [[ $# > 0 && "$1" == "update" ]]; then
+  diff ${diff_flags} install.py install.py  || diff_flags=""
+
+  if [[ $# -gt 0 && "$1" == "update" ]]; then
     _gather_logs ""
   else
     _gather_logs "${CHECK_PREFIX}"
