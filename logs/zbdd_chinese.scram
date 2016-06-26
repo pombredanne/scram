@@ -29,34 +29,34 @@ DEBUG4: 				# of variables with negative indices: 0
 DEBUG4: 				# of variables with positive and negative indices: 0
 DEBUG3: 			Detecting multiple definitions...
 DEBUG4: 				7 gates are multiply defined.
-DEBUG5: 					Gate 1000034: 1 times.
-DEBUG5: 					Gate 1000033: 1 times.
-DEBUG5: 					Gate 1000035: 1 times.
-DEBUG5: 					Gate 1000028: 1 times.
-DEBUG5: 					Gate 1000027: 1 times.
-DEBUG5: 					Gate 1000025: 1 times.
-DEBUG5: 					Gate 1000024: 1 times.
+DEBUG5: 					Gate 1000005: 1 times.
+DEBUG5: 					Gate 1000013: 1 times.
+DEBUG5: 					Gate 1000014: 1 times.
+DEBUG5: 					Gate 1000006: 1 times.
+DEBUG5: 					Gate 1000016: 1 times.
+DEBUG5: 					Gate 1000007: 1 times.
+DEBUG5: 					Gate 1000017: 1 times.
 DEBUG4: 				3 gates are multiply defined.
-DEBUG5: 					Gate 1000032: 1 times.
-DEBUG5: 					Gate 1000023: 1 times.
-DEBUG5: 					Gate 1000026: 1 times.
+DEBUG5: 					Gate 1000004: 1 times.
+DEBUG5: 					Gate 1000015: 1 times.
+DEBUG5: 					Gate 1000012: 1 times.
 DEBUG4: 				2 gates are multiply defined.
-DEBUG5: 					Gate 1000031: 1 times.
-DEBUG5: 					Gate 1000022: 1 times.
+DEBUG5: 					Gate 1000003: 1 times.
+DEBUG5: 					Gate 1000011: 1 times.
 DEBUG4: 				2 gates are multiply defined.
-DEBUG5: 					Gate 1000030: 1 times.
-DEBUG5: 					Gate 1000021: 1 times.
+DEBUG5: 					Gate 1000002: 1 times.
+DEBUG5: 					Gate 1000010: 1 times.
 DEBUG3: 			Detecting modules...
 DEBUG4: 				Assigning timings to nodes...
 DEBUG5: 					Clearing node visit times...
 DEBUG5: 					Node visit times are clear!
 DEBUG4: 				Timings are assigned to nodes.
-DEBUG4: 				Found original module: G1000035
-DEBUG4: 				Created a module G1000036 with 3 arguments for G1000031
-DEBUG4: 				Found original module: G1000028
-DEBUG4: 				Found original module: G1000027
-DEBUG4: 				Found original module: G1000026
-DEBUG4: 				Created a module G1000037 with 3 arguments for G1000022
+DEBUG4: 				Created a module G1000036 with 3 arguments for G1000003
+DEBUG4: 				Found original module: G1000007
+DEBUG4: 				Created a module G1000037 with 3 arguments for G1000011
+DEBUG4: 				Found original module: G1000016
+DEBUG4: 				Found original module: G1000017
+DEBUG4: 				Found original module: G1000015
 DEBUG4: 				Found original module: G1000000
 DEBUG3: 			Finished module detection!
 DEBUG3: 			Coalescing gates...
@@ -89,10 +89,10 @@ DEBUG4: 				Assigning timings to nodes...
 DEBUG5: 					Clearing node visit times...
 DEBUG5: 					Node visit times are clear!
 DEBUG4: 				Timings are assigned to nodes.
-DEBUG4: 				Found original module: G1000039
-DEBUG4: 				Found original module: G1000025
-DEBUG4: 				Found original module: G1000034
+DEBUG4: 				Found original module: G1000005
+DEBUG4: 				Found original module: G1000014
 DEBUG4: 				Found original module: G1000038
+DEBUG4: 				Found original module: G1000039
 DEBUG3: 			Finished module detection!
 DEBUG3: 			Boolean optimization...
 DEBUG5: 					Clearing OptiValues...
@@ -245,38 +245,27 @@ DEBUG2: 		Launching the algorithm...
 DEBUG3: 			Converting module to ZBDD: G1000000
 DEBUG4: 				Limit on product order: 20
 DEBUG4: 				Minimizing ZBDD...
-DEBUG4: 				# of ZBDD nodes created: 135
-DEBUG4: 				# of entries in unique table: 124
+DEBUG4: 				# of ZBDD nodes created: 172
+DEBUG4: 				# of entries in unique table: 164
 DEBUG4: 				# of entries in AND table: 0
 DEBUG4: 				# of entries in OR table: 0
 DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 0
-DEBUG4: 				# of SetNodes in ZBDD: 22
+DEBUG4: 				# of SetNodes in ZBDD: 20
 DEBUG4: 				# of products: 11
-DEBUG3: 			Converting module to ZBDD: G1000026
+DEBUG3: 			Converting module to ZBDD: G1000036
 DEBUG4: 				Limit on product order: 17
 DEBUG4: 				Minimizing ZBDD...
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of ZBDD nodes created: 6
+DEBUG4: 				# of entries in unique table: 5
 DEBUG4: 				# of entries in AND table: 0
 DEBUG4: 				# of entries in OR table: 0
 DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 0
-DEBUG4: 				# of SetNodes in ZBDD: 2
-DEBUG4: 				# of products: 1
-DEBUG3: 			Converting module to ZBDD: G1000028
-DEBUG4: 				Limit on product order: 16
-DEBUG4: 				Minimizing ZBDD...
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 0
-DEBUG4: 				# of SetNodes in ZBDD: 2
-DEBUG4: 				# of products: 2
-DEBUG3: 			Converting module to ZBDD: G1000027
-DEBUG4: 				Limit on product order: 16
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG3: 			Converting module to ZBDD: G1000014
+DEBUG4: 				Limit on product order: 17
 DEBUG4: 				Minimizing ZBDD...
 DEBUG4: 				# of ZBDD nodes created: 4
 DEBUG4: 				# of entries in unique table: 3
@@ -297,6 +286,39 @@ DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 0
 DEBUG4: 				# of SetNodes in ZBDD: 3
 DEBUG4: 				# of products: 3
+DEBUG3: 			Converting module to ZBDD: G1000015
+DEBUG4: 				Limit on product order: 17
+DEBUG4: 				Minimizing ZBDD...
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 1
+DEBUG3: 			Converting module to ZBDD: G1000016
+DEBUG4: 				Limit on product order: 16
+DEBUG4: 				Minimizing ZBDD...
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG3: 			Converting module to ZBDD: G1000017
+DEBUG4: 				Limit on product order: 16
+DEBUG4: 				Minimizing ZBDD...
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
 DEBUG3: 			Converting module to ZBDD: G1000039
 DEBUG4: 				Limit on product order: 19
 DEBUG4: 				Minimizing ZBDD...
@@ -308,6 +330,28 @@ DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 0
 DEBUG4: 				# of SetNodes in ZBDD: 4
 DEBUG4: 				# of products: 4
+DEBUG3: 			Converting module to ZBDD: G1000007
+DEBUG4: 				Limit on product order: 17
+DEBUG4: 				Minimizing ZBDD...
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG3: 			Converting module to ZBDD: G1000005
+DEBUG4: 				Limit on product order: 17
+DEBUG4: 				Minimizing ZBDD...
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 0
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
 DEBUG3: 			Converting module to ZBDD: G1000038
 DEBUG4: 				Limit on product order: 19
 DEBUG4: 				Minimizing ZBDD...
@@ -319,70 +363,26 @@ DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 0
 DEBUG4: 				# of SetNodes in ZBDD: 3
 DEBUG4: 				# of products: 3
-DEBUG3: 			Converting module to ZBDD: G1000035
-DEBUG4: 				Limit on product order: 17
-DEBUG4: 				Minimizing ZBDD...
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 0
-DEBUG4: 				# of SetNodes in ZBDD: 2
-DEBUG4: 				# of products: 2
-DEBUG3: 			Converting module to ZBDD: G1000034
-DEBUG4: 				Limit on product order: 17
-DEBUG4: 				Minimizing ZBDD...
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 0
-DEBUG4: 				# of SetNodes in ZBDD: 2
-DEBUG4: 				# of products: 2
-DEBUG3: 			Converting module to ZBDD: G1000025
-DEBUG4: 				Limit on product order: 17
-DEBUG4: 				Minimizing ZBDD...
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 0
-DEBUG4: 				# of SetNodes in ZBDD: 2
-DEBUG4: 				# of products: 2
-DEBUG3: 			Converting module to ZBDD: G1000036
-DEBUG4: 				Limit on product order: 17
-DEBUG4: 				Minimizing ZBDD...
-DEBUG4: 				# of ZBDD nodes created: 6
-DEBUG4: 				# of entries in unique table: 5
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 0
-DEBUG4: 				# of SetNodes in ZBDD: 3
-DEBUG4: 				# of products: 3
-DEBUG3: 			Getting products from minimized ZBDD: G1000036
-DEBUG4: 				# of generated products: 3
-DEBUG3: 			Getting products from minimized ZBDD: G1000025
-DEBUG4: 				# of generated products: 2
-DEBUG3: 			Getting products from minimized ZBDD: G1000034
-DEBUG4: 				# of generated products: 2
-DEBUG3: 			Getting products from minimized ZBDD: G1000035
-DEBUG4: 				# of generated products: 2
-DEBUG3: 			Getting products from minimized ZBDD: G1000027
-DEBUG4: 				# of generated products: 2
-DEBUG3: 			Getting products from minimized ZBDD: G1000028
-DEBUG4: 				# of generated products: 2
-DEBUG3: 			Getting products from minimized ZBDD: G1000026
-DEBUG4: 				# of generated products: 4
-DEBUG3: 			Getting products from minimized ZBDD: G1000037
-DEBUG4: 				# of generated products: 3
-DEBUG3: 			Getting products from minimized ZBDD: G1000039
-DEBUG4: 				# of generated products: 4
 DEBUG3: 			Getting products from minimized ZBDD: G1000038
 DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000005
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000007
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000039
+DEBUG4: 				# of generated products: 4
+DEBUG3: 			Getting products from minimized ZBDD: G1000036
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000014
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000037
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000017
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000016
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000015
+DEBUG4: 				# of generated products: 4
 DEBUG3: 			Getting products from minimized ZBDD: G1000000
 DEBUG4: 				# of generated products: 392
 DEBUG2: 		# of products: 392

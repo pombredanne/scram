@@ -134,12 +134,12 @@ DEBUG4: 				# of variables with negative indices: 0
 DEBUG4: 				# of variables with positive and negative indices: 0
 DEBUG3: 			Detecting multiple definitions...
 DEBUG4: 				2 gates are multiply defined.
-DEBUG5: 					Gate 1000068: 1 times.
-DEBUG5: 					Gate 1000069: 1 times.
+DEBUG5: 					Gate 1000063: 1 times.
+DEBUG5: 					Gate 1000062: 1 times.
 DEBUG4: 				1 gates are multiply defined.
-DEBUG5: 					Gate 1000067: 1 times.
+DEBUG5: 					Gate 1000061: 1 times.
 DEBUG4: 				1 gates are multiply defined.
-DEBUG5: 					Gate 1000065: 1 times.
+DEBUG5: 					Gate 1000060: 1 times.
 DEBUG3: 			Detecting modules...
 DEBUG4: 				Assigning timings to nodes...
 DEBUG5: 					Clearing node visit times...
@@ -158,6 +158,11 @@ DEBUG4: 				Merging common arguments for OR gates...
 DEBUG5: 					Clearing node counts...
 DEBUG5: 					Node counts are clear!
 DEBUG4: 				Working with 1 modules...
+DEBUG4: 				Merging 1 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG5: 					Merging 2 args into a new gate
+DEBUG5: 					The number of common parents: 2
+DEBUG5: 					Got NULL gates to clear!
 DEBUG4: 				Finished merging for OR gates!
 DEBUG3: 			Processing Distributivity...
 DEBUG5: 					Considering 2 candidates...
@@ -279,6 +284,10 @@ DEBUG4: 				Working with 1 modules...
 DEBUG4: 				Merging 1 collection...
 DEBUG4: 				Transforming 1 table groups...
 DEBUG5: 					Merging 2 args into a new gate
+DEBUG5: 					The number of common parents: 2
+DEBUG4: 				Merging 1 collection...
+DEBUG4: 				Transforming 1 table groups...
+DEBUG5: 					Merging 2 args into a new gate
 DEBUG5: 					The number of common parents: 5
 DEBUG4: 				Merging 1 collection...
 DEBUG4: 				Transforming 1 table groups...
@@ -292,6 +301,7 @@ DEBUG4: 				Merging 1 collection...
 DEBUG4: 				Transforming 1 table groups...
 DEBUG5: 					Merging 3 args into a new gate
 DEBUG5: 					The number of common parents: 2
+DEBUG5: 					Got NULL gates to clear!
 DEBUG4: 				Finished merging for OR gates!
 DEBUG3: 			Processing Distributivity...
 DEBUG5: 					Considering 2 candidates...
@@ -388,125 +398,125 @@ DEBUG2: 		Launching the algorithm...
 DEBUG2: 		Start minimal cut set generation.
 DEBUG3: 			Finding cut sets from module: G1000000
 DEBUG4: 				Limit on product order: 20
+DEBUG5: 					Expanding gate G1000064
+DEBUG5: 					Extracting cut sets for G1000064
+DEBUG5: 					Expanding gate G1000071
+DEBUG5: 					Extracting cut sets for G1000071
+DEBUG5: 					Expanding gate G1000066
+DEBUG5: 					Extracting cut sets for G1000066
 DEBUG5: 					Expanding gate G1000055
 DEBUG5: 					Extracting cut sets for G1000055
+DEBUG5: 					Expanding gate G1000056
+DEBUG5: 					Extracting cut sets for G1000056
+DEBUG5: 					Expanding gate G1000061
+DEBUG5: 					Extracting cut sets for G1000061
+DEBUG5: 					Expanding gate G1000070
+DEBUG5: 					Extracting cut sets for G1000070
+DEBUG5: 					Expanding gate G1000031
+DEBUG5: 					Extracting cut sets for G1000031
+DEBUG5: 					Expanding gate G1000063
+DEBUG5: 					Extracting cut sets for G1000063
+DEBUG5: 					Expanding gate G1000028
+DEBUG5: 					Extracting cut sets for G1000028
+DEBUG5: 					Expanding gate G1000001
+DEBUG5: 					Extracting cut sets for G1000001
+DEBUG5: 					Expanding gate G1000058
+DEBUG5: 					Extracting cut sets for G1000058
+DEBUG5: 					Expanding gate G1000059
+DEBUG5: 					Extracting cut sets for G1000059
+DEBUG5: 					Expanding gate G1000002
+DEBUG5: 					Extracting cut sets for G1000002
+DEBUG5: 					Expanding gate G1000003
+DEBUG5: 					Extracting cut sets for G1000003
+DEBUG5: 					Expanding gate G1000029
+DEBUG5: 					Extracting cut sets for G1000029
+DEBUG5: 					Expanding gate G1000030
+DEBUG5: 					Extracting cut sets for G1000030
+DEBUG5: 					Expanding gate G1000032
+DEBUG5: 					Extracting cut sets for G1000032
+DEBUG5: 					Expanding gate G1000033
+DEBUG5: 					Extracting cut sets for G1000033
 DEBUG5: 					Expanding gate G1000034
 DEBUG5: 					Extracting cut sets for G1000034
 DEBUG5: 					Expanding gate G1000035
 DEBUG5: 					Extracting cut sets for G1000035
 DEBUG5: 					Expanding gate G1000036
 DEBUG5: 					Extracting cut sets for G1000036
-DEBUG5: 					Expanding gate G1000056
-DEBUG5: 					Extracting cut sets for G1000056
-DEBUG5: 					Expanding gate G1000058
-DEBUG5: 					Extracting cut sets for G1000058
-DEBUG5: 					Expanding gate G1000059
-DEBUG5: 					Extracting cut sets for G1000059
-DEBUG5: 					Expanding gate G1000066
-DEBUG5: 					Extracting cut sets for G1000066
-DEBUG5: 					Expanding gate G1000064
-DEBUG5: 					Extracting cut sets for G1000064
-DEBUG5: 					Expanding gate G1000001
-DEBUG5: 					Extracting cut sets for G1000001
-DEBUG5: 					Expanding gate G1000002
-DEBUG5: 					Extracting cut sets for G1000002
-DEBUG5: 					Expanding gate G1000003
-DEBUG5: 					Extracting cut sets for G1000003
-DEBUG5: 					Expanding gate G1000065
-DEBUG5: 					Extracting cut sets for G1000065
-DEBUG5: 					Expanding gate G1000067
-DEBUG5: 					Extracting cut sets for G1000067
-DEBUG5: 					Expanding gate G1000028
-DEBUG5: 					Extracting cut sets for G1000028
-DEBUG5: 					Expanding gate G1000029
-DEBUG5: 					Extracting cut sets for G1000029
-DEBUG5: 					Expanding gate G1000030
-DEBUG5: 					Extracting cut sets for G1000030
-DEBUG5: 					Expanding gate G1000068
-DEBUG5: 					Extracting cut sets for G1000068
-DEBUG5: 					Expanding gate G1000069
-DEBUG5: 					Extracting cut sets for G1000069
-DEBUG5: 					Expanding gate G1000031
-DEBUG5: 					Extracting cut sets for G1000031
-DEBUG5: 					Expanding gate G1000032
-DEBUG5: 					Extracting cut sets for G1000032
-DEBUG5: 					Expanding gate G1000033
-DEBUG5: 					Extracting cut sets for G1000033
 DEBUG5: 					Expanding gate G1000037
 DEBUG5: 					Extracting cut sets for G1000037
 DEBUG5: 					Expanding gate G1000038
 DEBUG5: 					Extracting cut sets for G1000038
-DEBUG5: 					Expanding gate G1000039
-DEBUG5: 					Extracting cut sets for G1000039
-DEBUG5: 					Expanding gate G1000054
-DEBUG5: 					Extracting cut sets for G1000054
-DEBUG5: 					Expanding gate G1000011
-DEBUG5: 					Extracting cut sets for G1000011
-DEBUG5: 					Expanding gate G1000017
-DEBUG5: 					Extracting cut sets for G1000017
-DEBUG5: 					Expanding gate G1000052
-DEBUG5: 					Extracting cut sets for G1000052
-DEBUG5: 					Expanding gate G1000005
-DEBUG5: 					Extracting cut sets for G1000005
-DEBUG5: 					Expanding gate G1000053
-DEBUG5: 					Extracting cut sets for G1000053
 DEBUG5: 					Expanding gate G1000023
 DEBUG5: 					Extracting cut sets for G1000023
-DEBUG5: 					Expanding gate G1000049
-DEBUG5: 					Extracting cut sets for G1000049
-DEBUG5: 					Expanding gate G1000025
-DEBUG5: 					Extracting cut sets for G1000025
-DEBUG5: 					Expanding gate G1000046
-DEBUG5: 					Extracting cut sets for G1000046
-DEBUG5: 					Expanding gate G1000008
-DEBUG5: 					Extracting cut sets for G1000008
-DEBUG5: 					Expanding gate G1000047
-DEBUG5: 					Extracting cut sets for G1000047
-DEBUG5: 					Expanding gate G1000048
-DEBUG5: 					Extracting cut sets for G1000048
-DEBUG5: 					Expanding gate G1000009
-DEBUG5: 					Extracting cut sets for G1000009
-DEBUG5: 					Expanding gate G1000010
-DEBUG5: 					Extracting cut sets for G1000010
-DEBUG5: 					Expanding gate G1000050
-DEBUG5: 					Extracting cut sets for G1000050
-DEBUG5: 					Expanding gate G1000051
-DEBUG5: 					Extracting cut sets for G1000051
+DEBUG5: 					Expanding gate G1000052
+DEBUG5: 					Extracting cut sets for G1000052
+DEBUG5: 					Expanding gate G1000053
+DEBUG5: 					Extracting cut sets for G1000053
+DEBUG5: 					Expanding gate G1000027
+DEBUG5: 					Extracting cut sets for G1000027
+DEBUG5: 					Expanding gate G1000054
+DEBUG5: 					Extracting cut sets for G1000054
 DEBUG5: 					Expanding gate G1000026
 DEBUG5: 					Extracting cut sets for G1000026
+DEBUG5: 					Expanding gate G1000025
+DEBUG5: 					Extracting cut sets for G1000025
+DEBUG5: 					Expanding gate G1000039
+DEBUG5: 					Extracting cut sets for G1000039
+DEBUG5: 					Expanding gate G1000049
+DEBUG5: 					Extracting cut sets for G1000049
+DEBUG5: 					Expanding gate G1000050
+DEBUG5: 					Extracting cut sets for G1000050
+DEBUG5: 					Expanding gate G1000017
+DEBUG5: 					Extracting cut sets for G1000017
+DEBUG5: 					Expanding gate G1000046
+DEBUG5: 					Extracting cut sets for G1000046
+DEBUG5: 					Expanding gate G1000047
+DEBUG5: 					Extracting cut sets for G1000047
+DEBUG5: 					Expanding gate G1000022
+DEBUG5: 					Extracting cut sets for G1000022
+DEBUG5: 					Expanding gate G1000048
+DEBUG5: 					Extracting cut sets for G1000048
+DEBUG5: 					Expanding gate G1000021
+DEBUG5: 					Extracting cut sets for G1000021
+DEBUG5: 					Expanding gate G1000020
+DEBUG5: 					Extracting cut sets for G1000020
+DEBUG5: 					Expanding gate G1000051
+DEBUG5: 					Extracting cut sets for G1000051
+DEBUG5: 					Expanding gate G1000011
+DEBUG5: 					Extracting cut sets for G1000011
+DEBUG5: 					Expanding gate G1000043
+DEBUG5: 					Extracting cut sets for G1000043
+DEBUG5: 					Expanding gate G1000044
+DEBUG5: 					Extracting cut sets for G1000044
+DEBUG5: 					Expanding gate G1000016
+DEBUG5: 					Extracting cut sets for G1000016
 DEBUG5: 					Expanding gate G1000045
 DEBUG5: 					Extracting cut sets for G1000045
 DEBUG5: 					Expanding gate G1000015
 DEBUG5: 					Extracting cut sets for G1000015
-DEBUG5: 					Expanding gate G1000016
-DEBUG5: 					Extracting cut sets for G1000016
-DEBUG5: 					Expanding gate G1000043
-DEBUG5: 					Extracting cut sets for G1000043
 DEBUG5: 					Expanding gate G1000014
 DEBUG5: 					Extracting cut sets for G1000014
-DEBUG5: 					Expanding gate G1000044
-DEBUG5: 					Extracting cut sets for G1000044
-DEBUG5: 					Expanding gate G1000027
-DEBUG5: 					Extracting cut sets for G1000027
-DEBUG5: 					Expanding gate G1000042
-DEBUG5: 					Extracting cut sets for G1000042
-DEBUG5: 					Expanding gate G1000021
-DEBUG5: 					Extracting cut sets for G1000021
-DEBUG5: 					Expanding gate G1000022
-DEBUG5: 					Extracting cut sets for G1000022
+DEBUG5: 					Expanding gate G1000005
+DEBUG5: 					Extracting cut sets for G1000005
 DEBUG5: 					Expanding gate G1000040
 DEBUG5: 					Extracting cut sets for G1000040
-DEBUG5: 					Expanding gate G1000020
-DEBUG5: 					Extracting cut sets for G1000020
 DEBUG5: 					Expanding gate G1000041
 DEBUG5: 					Extracting cut sets for G1000041
-DEBUG4: 				# of ZBDD nodes created: 1843
-DEBUG4: 				# of entries in unique table: 978
+DEBUG5: 					Expanding gate G1000010
+DEBUG5: 					Extracting cut sets for G1000010
+DEBUG5: 					Expanding gate G1000042
+DEBUG5: 					Extracting cut sets for G1000042
+DEBUG5: 					Expanding gate G1000009
+DEBUG5: 					Extracting cut sets for G1000009
+DEBUG5: 					Expanding gate G1000008
+DEBUG5: 					Extracting cut sets for G1000008
+DEBUG4: 				# of ZBDD nodes created: 1794
+DEBUG4: 				# of entries in unique table: 836
 DEBUG4: 				# of entries in AND table: 0
 DEBUG4: 				# of entries in OR table: 0
 DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 0
-DEBUG4: 				# of SetNodes in ZBDD: 168
+DEBUG4: 				# of SetNodes in ZBDD: 191
 DEBUG4: 				# of products: 4805
 DEBUG2: 		Delegating cut set extraction to ZBDD.
 DEBUG3: 			Getting products from minimized ZBDD: G1000000
