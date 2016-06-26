@@ -22,6 +22,8 @@
 
 #include <sstream>
 
+#include "ext.h"
+
 namespace scram {
 namespace mef {
 
@@ -68,7 +70,7 @@ void CcfGroup::ValidateDistribution() {
   }
 }
 
-void CcfGroup::Validate() {
+void CcfGroup::Validate() const {
   if (members_.size() < 2) {
     throw ValidationError(Element::name() +
                           " CCF group must have at least 2 members.");
@@ -144,13 +146,13 @@ void CcfGroup::ApplyModel() {
   std::vector<Gate*> proxy_gates;
   for (const std::pair<const std::string, BasicEventPtr>& mem : members_) {
     const BasicEventPtr& member = mem.second;
-    GatePtr new_gate(
-        new Gate(member->name(), member->base_path(), member->role()));
+    auto new_gate = ext::make_unique<Gate>(member->name(), member->base_path(),
+                                           member->role());
     assert(member->id() == new_gate->id());
-    new_gate->formula(FormulaPtr(new Formula("or")));
+    new_gate->formula(ext::make_unique<Formula>("or"));
 
     proxy_gates.push_back(new_gate.get());
-    member->ccf_gate(new_gate);
+    member->ccf_gate(std::move(new_gate));
   }
 
   ExpressionMap probabilities = this->CalculateProbabilities();
@@ -165,7 +167,7 @@ void CcfGroup::ApplyModel() {
     for (auto& combination : combinations) {
       auto ccf_event = std::make_shared<CcfEvent>(JoinNames(combination), this);
       ccf_event->expression(prob);
-      for (Gate* gate : combination) gate->formula()->AddArgument(ccf_event);
+      for (Gate* gate : combination) gate->formula().AddArgument(ccf_event);
       ccf_event->members(std::move(combination));  // Move, at last.
     }
   }
@@ -281,7 +283,7 @@ CcfGroup::ExpressionMap AlphaFactorModel::CalculateProbabilities() {
   return probabilities;
 }
 
-void PhiFactorModel::Validate() {
+void PhiFactorModel::Validate() const {
   CcfGroup::Validate();
   double sum = 0;
   double sum_min = 0;

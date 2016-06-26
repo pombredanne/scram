@@ -161,7 +161,7 @@ class BasicEvent : public PrimaryEvent {
   /// Validates the probability expressions for the primary event.
   ///
   /// @throws ValidationError  The expression for the basic event is invalid.
-  void Validate() {
+  void Validate() const {
     if (expression_->Min() < 0 || expression_->Max() > 1) {
       throw ValidationError("Expression value is invalid.");
     }
@@ -173,9 +173,9 @@ class BasicEvent : public PrimaryEvent {
   bool HasCcf() const { return ccf_gate_ != nullptr; }
 
   /// @returns CCF group gate representing this basic event.
-  const GatePtr& ccf_gate() const {
+  const Gate& ccf_gate() const {
     assert(ccf_gate_);
-    return ccf_gate_;
+    return *ccf_gate_;
   }
 
   /// Sets the common cause failure group gate
@@ -185,9 +185,9 @@ class BasicEvent : public PrimaryEvent {
   /// CCF group application.
   ///
   /// @param[in] gate  CCF group gate.
-  void ccf_gate(const GatePtr& gate) {
+  void ccf_gate(std::unique_ptr<Gate> gate) {
     assert(!ccf_gate_);
-    ccf_gate_ = gate;
+    ccf_gate_ = std::move(gate);
   }
 
  private:
@@ -198,7 +198,7 @@ class BasicEvent : public PrimaryEvent {
   /// If this basic event is in a common cause group,
   /// CCF gate can serve as a replacement for the basic event
   /// for common cause analysis.
-  GatePtr ccf_gate_;
+  std::unique_ptr<Gate> ccf_gate_;
 };
 
 class CcfGroup;
@@ -260,7 +260,10 @@ class Gate : public Event {
   using Event::Event;  // Construction with unique identification.
 
   /// @returns The formula of this gate.
-  const FormulaPtr& formula() const { return formula_; }
+  /// @{
+  const Formula& formula() const { return *formula_; }
+  Formula& formula() { return *formula_; }
+  /// @}
 
   /// Sets the formula of this gate.
   ///
@@ -273,7 +276,7 @@ class Gate : public Event {
   /// Checks if a gate is initialized correctly.
   ///
   /// @throws ValidationError  Errors in the gate's logic or setup.
-  void Validate();
+  void Validate() const;
 
   /// @returns The mark of this gate node.
   /// @returns Empty string for no mark.
@@ -367,7 +370,7 @@ class Formula {
   /// Checks if a formula is initialized correctly with the number of arguments.
   ///
   /// @throws ValidationError  Problems with the operator or arguments.
-  void Validate();
+  void Validate() const;
 
  private:
   /// Formula types that require two or more arguments.

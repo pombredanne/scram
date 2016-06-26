@@ -44,9 +44,11 @@
 
 #include <boost/container/flat_set.hpp>
 #include <boost/functional/hash.hpp>
+#include <boost/range/algorithm.hpp>
 
 #include "event.h"
 #include "ext.h"
+#include "linear_map.h"
 
 namespace scram {
 namespace core {
@@ -304,14 +306,14 @@ class Gate : public Node, public std::enable_shared_from_this<Gate> {
   ///
   /// @tparam T  The type of the argument node.
   template <class T>
-  using Arg = std::pair<const int, std::shared_ptr<T>>;
+  using Arg = std::pair<int, std::shared_ptr<T>>;
 
   /// The associative container type to store the gate arguments.
   /// This container type maps the index of the argument to a pointer to it.
   ///
   /// @tparam T  The type of the argument node.
   template <class T>
-  using ArgMap = std::unordered_map<int, std::shared_ptr<T>>;
+  using ArgMap = LinearMap<int, std::shared_ptr<T>, std::vector, MoveEraser>;
 
   /// The ordered set of gate argument indices.
   using ArgSet = boost::container::flat_set<int>;
@@ -843,7 +845,7 @@ class BooleanGraph {
   ///       the argument fault tree and its underlying containers are stable.
   ///       If the fault tree has been manipulated (event addition, etc.),
   ///       its BooleanGraph representation is not guaranteed to be the same.
-  explicit BooleanGraph(const mef::GatePtr& root, bool ccf = false) noexcept;
+  explicit BooleanGraph(const mef::Gate& root, bool ccf = false) noexcept;
 
   BooleanGraph(const BooleanGraph&) = delete;
   BooleanGraph& operator=(const BooleanGraph&) = delete;
@@ -915,43 +917,40 @@ class BooleanGraph {
   /// @param[in,out] nodes  The mapping of processed nodes.
   ///
   /// @returns Pointer to the newly created indexed gate.
-  GatePtr ProcessFormula(const mef::FormulaPtr& formula, bool ccf,
+  GatePtr ProcessFormula(const mef::Formula& formula, bool ccf,
                          ProcessedNodes* nodes) noexcept;
 
   /// Processes a Boolean formula's basic events
-  /// into variable arguments of an indexed gate of the Boolean graph.
+  /// into variable arguments of an indexed gate in the Boolean graph.
+  /// Basic events are saved for reference in analysis.
   ///
   /// @param[in,out] parent  The parent gate to own the arguments.
-  /// @param[in] basic_events  The collection of basic events of the formula.
+  /// @param[in] basic_event  The basic event argument of the formula.
   /// @param[in] ccf  A flag to replace basic events with CCF gates.
   /// @param[in,out] nodes  The mapping of processed nodes.
-  void ProcessBasicEvents(const GatePtr& parent,
-                          const std::vector<mef::BasicEventPtr>& basic_events,
-                          bool ccf,
-                          ProcessedNodes* nodes) noexcept;
+  void ProcessBasicEvent(const GatePtr& parent, mef::BasicEvent* basic_event,
+                         bool ccf, ProcessedNodes* nodes) noexcept;
 
   /// Processes a Boolean formula's house events
   /// into constant arguments of an indexed gate of the Boolean graph.
   /// Newly created constants are registered for removal for Preprocessor.
   ///
   /// @param[in,out] parent  The parent gate to own the arguments.
-  /// @param[in] house_events  The collection of house events of the formula.
+  /// @param[in] house_event  The house event argument of the formula.
   /// @param[in,out] nodes  The mapping of processed nodes.
-  void ProcessHouseEvents(const GatePtr& parent,
-                          const std::vector<mef::HouseEventPtr>& house_events,
-                          ProcessedNodes* nodes) noexcept;
+  void ProcessHouseEvent(const GatePtr& parent,
+                         const mef::HouseEvent& house_event,
+                         ProcessedNodes* nodes) noexcept;
 
   /// Processes a Boolean formula's gates
   /// into gate arguments of an indexed gate of the Boolean graph.
   ///
   /// @param[in,out] parent  The parent gate to own the arguments.
-  /// @param[in] gates  The collection of gates of the formula.
+  /// @param[in] gate  The gate argument of the formula.
   /// @param[in] ccf  A flag to replace basic events with CCF gates.
   /// @param[in,out] nodes  The mapping of processed nodes.
-  void ProcessGates(const GatePtr& parent,
-                    const std::vector<mef::GatePtr>& gates,
-                    bool ccf,
-                    ProcessedNodes* nodes) noexcept;
+  void ProcessGate(const GatePtr& parent, const mef::Gate& gate, bool ccf,
+                   ProcessedNodes* nodes) noexcept;
 
   /// Sets the visit marks to False for all indexed gates,
   /// starting from the root gate,
@@ -1081,8 +1080,7 @@ class BooleanGraph {
     ///
     /// @returns The total number of unique elements.
     int Count(const std::unordered_set<int>& container) noexcept {
-      return std::count_if(container.begin(), container.end(),
-                           [&container](int index) {
+      return boost::count_if(container, [&container](int index) {
         return index > 0 || !container.count(-index);
       });
     }
@@ -1091,16 +1089,14 @@ class BooleanGraph {
     ///
     /// @returns The total number of complement elements.
     int CountComplements(const std::unordered_set<int>& container) noexcept {
-      return std::count_if(container.begin(), container.end(),
-                           [](int index) { return index < 0; });
+      return boost::count_if(container, [](int index) { return index < 0; });
     }
 
     /// @param[in] container  Collection of indices of elements.
     ///
     /// @returns The number of literals appearing as positive and negative.
     int CountOverlap(const std::unordered_set<int>& container) noexcept {
-      return std::count_if(container.begin(), container.end(),
-                           [&container](int index) {
+      return boost::count_if(container, [&container](int index) {
         return index < 0 && container.count(-index);
       });
     }

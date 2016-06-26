@@ -22,6 +22,7 @@ include_directories("${SCRAM_SOURCE_DIR}")
 # just add it to this list.
 # Any GoogleTests inside will be automatically added to ctest.
 set(SCRAM_CORE_TEST_SOURCE
+  "${CMAKE_CURRENT_SOURCE_DIR}/linear_map_tests.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/xml_parser_tests.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/xml_stream_tests.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/settings_tests.cc"
@@ -34,7 +35,6 @@ set(SCRAM_CORE_TEST_SOURCE
   "${CMAKE_CURRENT_SOURCE_DIR}/boolean_graph_tests.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/initializer_tests.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/risk_analysis_tests.cc"
-  "${CMAKE_CURRENT_SOURCE_DIR}/grapher_tests.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/bench_core_tests.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/bench_two_train_tests.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/bench_lift_tests.cc"
