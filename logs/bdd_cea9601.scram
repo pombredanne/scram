@@ -251,26 +251,6 @@ DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 2
 DEBUG4: 				# of SetNodes in ZBDD: 2
 DEBUG4: 				# of products: 1
-DEBUG2: 		Creating ZBDD from BDD: G1000204
-DEBUG4: 				Limit on product order: 2
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 3
-DEBUG4: 				# of SetNodes in ZBDD: 3
-DEBUG4: 				# of products: 3
-DEBUG2: 		Creating ZBDD from BDD: G1000205
-DEBUG4: 				Limit on product order: 2
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 3
-DEBUG4: 				# of SetNodes in ZBDD: 3
-DEBUG4: 				# of products: 3
 DEBUG2: 		Creating ZBDD from BDD: G1000106
 DEBUG4: 				Limit on product order: 2
 DEBUG4: 				# of ZBDD nodes created: 3
@@ -291,16 +271,6 @@ DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 2
 DEBUG4: 				# of SetNodes in ZBDD: 2
 DEBUG4: 				# of products: 1
-DEBUG2: 		Creating ZBDD from BDD: G1000238
-DEBUG4: 				Limit on product order: 2
-DEBUG4: 				# of ZBDD nodes created: 3
-DEBUG4: 				# of entries in unique table: 2
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 2
-DEBUG4: 				# of SetNodes in ZBDD: 2
-DEBUG4: 				# of products: 2
 DEBUG2: 		Creating ZBDD from BDD: G1000192
 DEBUG4: 				Limit on product order: 2
 DEBUG4: 				# of ZBDD nodes created: 4
@@ -321,46 +291,6 @@ DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 2
 DEBUG4: 				# of SetNodes in ZBDD: 2
 DEBUG4: 				# of products: 1
-DEBUG2: 		Creating ZBDD from BDD: G1000203
-DEBUG4: 				Limit on product order: 2
-DEBUG4: 				# of ZBDD nodes created: 7
-DEBUG4: 				# of entries in unique table: 6
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 6
-DEBUG4: 				# of SetNodes in ZBDD: 6
-DEBUG4: 				# of products: 6
-DEBUG2: 		Creating ZBDD from BDD: G1000206
-DEBUG4: 				Limit on product order: 2
-DEBUG4: 				# of ZBDD nodes created: 7
-DEBUG4: 				# of entries in unique table: 6
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 6
-DEBUG4: 				# of SetNodes in ZBDD: 6
-DEBUG4: 				# of products: 6
-DEBUG2: 		Creating ZBDD from BDD: G1000239
-DEBUG4: 				Limit on product order: 2
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 3
-DEBUG4: 				# of SetNodes in ZBDD: 3
-DEBUG4: 				# of products: 3
-DEBUG2: 		Creating ZBDD from BDD: G1000241
-DEBUG4: 				Limit on product order: 2
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 3
-DEBUG4: 				# of SetNodes in ZBDD: 3
-DEBUG4: 				# of products: 3
 DEBUG2: 		Creating ZBDD from BDD: G1000194
 DEBUG4: 				Limit on product order: 2
 DEBUG4: 				# of ZBDD nodes created: 3
@@ -381,26 +311,6 @@ DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 2
 DEBUG4: 				# of SetNodes in ZBDD: 2
 DEBUG4: 				# of products: 1
-DEBUG2: 		Creating ZBDD from BDD: G1000240
-DEBUG4: 				Limit on product order: 2
-DEBUG4: 				# of ZBDD nodes created: 3
-DEBUG4: 				# of entries in unique table: 2
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 2
-DEBUG4: 				# of SetNodes in ZBDD: 2
-DEBUG4: 				# of products: 2
-DEBUG2: 		Creating ZBDD from BDD: G1000202
-DEBUG4: 				Limit on product order: 2
-DEBUG4: 				# of ZBDD nodes created: 4
-DEBUG4: 				# of entries in unique table: 3
-DEBUG4: 				# of entries in AND table: 0
-DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 0
-DEBUG4: 				# of entries in minimal table: 3
-DEBUG4: 				# of SetNodes in ZBDD: 3
-DEBUG4: 				# of products: 3
 DEBUG2: 		Creating ZBDD from BDD: G1000201
 DEBUG4: 				Limit on product order: 2
 DEBUG4: 				# of ZBDD nodes created: 4
@@ -411,40 +321,130 @@ DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 3
 DEBUG4: 				# of SetNodes in ZBDD: 3
 DEBUG4: 				# of products: 3
-DEBUG3: 			Getting products from minimized ZBDD: G1000201
-DEBUG4: 				# of generated products: 3
-DEBUG3: 			Getting products from minimized ZBDD: G1000202
-DEBUG4: 				# of generated products: 3
-DEBUG3: 			Getting products from minimized ZBDD: G1000240
-DEBUG4: 				# of generated products: 2
-DEBUG3: 			Getting products from minimized ZBDD: G1000195
-DEBUG4: 				# of generated products: 1
-DEBUG3: 			Getting products from minimized ZBDD: G1000194
-DEBUG4: 				# of generated products: 2
-DEBUG3: 			Getting products from minimized ZBDD: G1000107
-DEBUG4: 				# of generated products: 1
-DEBUG3: 			Getting products from minimized ZBDD: G1000106
-DEBUG4: 				# of generated products: 2
-DEBUG3: 			Getting products from minimized ZBDD: G1000205
-DEBUG4: 				# of generated products: 3
-DEBUG3: 			Getting products from minimized ZBDD: G1000204
-DEBUG4: 				# of generated products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000202
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000203
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 7
+DEBUG4: 				# of entries in unique table: 6
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 6
+DEBUG4: 				# of SetNodes in ZBDD: 6
+DEBUG4: 				# of products: 6
+DEBUG2: 		Creating ZBDD from BDD: G1000204
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000205
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000206
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 7
+DEBUG4: 				# of entries in unique table: 6
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 6
+DEBUG4: 				# of SetNodes in ZBDD: 6
+DEBUG4: 				# of products: 6
+DEBUG2: 		Creating ZBDD from BDD: G1000238
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG2: 		Creating ZBDD from BDD: G1000239
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
+DEBUG2: 		Creating ZBDD from BDD: G1000240
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 3
+DEBUG4: 				# of entries in unique table: 2
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 2
+DEBUG4: 				# of SetNodes in ZBDD: 2
+DEBUG4: 				# of products: 2
+DEBUG2: 		Creating ZBDD from BDD: G1000241
+DEBUG4: 				Limit on product order: 2
+DEBUG4: 				# of ZBDD nodes created: 4
+DEBUG4: 				# of entries in unique table: 3
+DEBUG4: 				# of entries in AND table: 0
+DEBUG4: 				# of entries in OR table: 0
+DEBUG4: 				# of entries in subsume table: 0
+DEBUG4: 				# of entries in minimal table: 3
+DEBUG4: 				# of SetNodes in ZBDD: 3
+DEBUG4: 				# of products: 3
 DEBUG3: 			Getting products from minimized ZBDD: G1000060
 DEBUG4: 				# of generated products: 1
 DEBUG3: 			Getting products from minimized ZBDD: G1000105
 DEBUG4: 				# of generated products: 3
-DEBUG3: 			Getting products from minimized ZBDD: G1000238
+DEBUG3: 			Getting products from minimized ZBDD: G1000107
+DEBUG4: 				# of generated products: 1
+DEBUG3: 			Getting products from minimized ZBDD: G1000106
 DEBUG4: 				# of generated products: 2
 DEBUG3: 			Getting products from minimized ZBDD: G1000193
 DEBUG4: 				# of generated products: 1
 DEBUG3: 			Getting products from minimized ZBDD: G1000192
 DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000195
+DEBUG4: 				# of generated products: 1
+DEBUG3: 			Getting products from minimized ZBDD: G1000194
+DEBUG4: 				# of generated products: 2
+DEBUG3: 			Getting products from minimized ZBDD: G1000201
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000202
+DEBUG4: 				# of generated products: 3
 DEBUG3: 			Getting products from minimized ZBDD: G1000203
 DEBUG4: 				# of generated products: 6
+DEBUG3: 			Getting products from minimized ZBDD: G1000204
+DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000205
+DEBUG4: 				# of generated products: 3
 DEBUG3: 			Getting products from minimized ZBDD: G1000206
 DEBUG4: 				# of generated products: 6
+DEBUG3: 			Getting products from minimized ZBDD: G1000238
+DEBUG4: 				# of generated products: 2
 DEBUG3: 			Getting products from minimized ZBDD: G1000239
 DEBUG4: 				# of generated products: 3
+DEBUG3: 			Getting products from minimized ZBDD: G1000240
+DEBUG4: 				# of generated products: 2
 DEBUG3: 			Getting products from minimized ZBDD: G1000241
 DEBUG4: 				# of generated products: 3
 DEBUG3: 			Getting products from minimized ZBDD: G0

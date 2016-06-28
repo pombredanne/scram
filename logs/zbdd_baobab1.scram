@@ -283,18 +283,18 @@ DEBUG5: 					Clearing gate descendant marks...
 DEBUG5: 					Descendant marks are clear!
 DEBUG5: 					Clearing gate descendant marks...
 DEBUG5: 					Descendant marks are clear!
-DEBUG5: 					Reached decomposition sub-parent G1000033
-DEBUG5: 					Reached decomposition sub-parent G1000065
-DEBUG5: 					Reached decomposition sub-parent G1000047
 DEBUG5: 					Reached decomposition sub-parent G1000042
 DEBUG5: 					Reached decomposition sub-parent G1000068
+DEBUG5: 					Reached decomposition sub-parent G1000047
 DEBUG5: 					Reached decomposition sub-parent G1000060
-DEBUG5: 					Reached decomposition sub-parent G1000031
-DEBUG5: 					Reached decomposition sub-parent G1000059
+DEBUG5: 					Reached decomposition sub-parent G1000033
+DEBUG5: 					Reached decomposition sub-parent G1000065
 DEBUG5: 					Reached decomposition sub-parent G1000041
 DEBUG5: 					Reached decomposition sub-parent G1000046
+DEBUG5: 					Reached decomposition sub-parent G1000059
 DEBUG5: 					Reached decomposition sub-parent G1000064
 DEBUG5: 					Reached decomposition sub-parent G1000051
+DEBUG5: 					Reached decomposition sub-parent G1000031
 DEBUG5: 					Reached decomposition sub-parent G1000068
 DEBUG5: 					Reached decomposition sub-parent G1000074
 DEBUG5: 					Reached decomposition sub-parent G1000051
@@ -404,13 +404,13 @@ DEBUG5: 					Considering 4 candidates...
 DEBUG5: 					Considering 3 candidates...
 DEBUG5: 					Considering 2 candidates...
 DEBUG5: 					Considering 2 candidates...
-DEBUG5: 					Considering 3 candidates...
-DEBUG5: 					Considering 2 candidates...
-DEBUG5: 					Considering 2 candidates...
 DEBUG5: 					Considering 2 candidates...
 DEBUG5: 					Considering 2 candidates...
 DEBUG5: 					Considering 2 candidates...
 DEBUG5: 					Considering 3 candidates...
+DEBUG5: 					Considering 3 candidates...
+DEBUG5: 					Considering 2 candidates...
+DEBUG5: 					Considering 2 candidates...
 DEBUG5: 					Considering 3 candidates...
 DEBUG5: 					Considering 2 candidates...
 DEBUG5: 					Considering 2 candidates...
@@ -473,18 +473,18 @@ DEBUG5: 					Clearing gate descendant marks...
 DEBUG5: 					Descendant marks are clear!
 DEBUG5: 					Clearing gate descendant marks...
 DEBUG5: 					Descendant marks are clear!
-DEBUG5: 					Reached decomposition sub-parent G1000033
-DEBUG5: 					Reached decomposition sub-parent G1000060
-DEBUG5: 					Reached decomposition sub-parent G1000047
-DEBUG5: 					Reached decomposition sub-parent G1000068
 DEBUG5: 					Reached decomposition sub-parent G1000042
+DEBUG5: 					Reached decomposition sub-parent G1000068
+DEBUG5: 					Reached decomposition sub-parent G1000047
+DEBUG5: 					Reached decomposition sub-parent G1000060
+DEBUG5: 					Reached decomposition sub-parent G1000033
 DEBUG5: 					Reached decomposition sub-parent G1000065
-DEBUG5: 					Reached decomposition sub-parent G1000031
-DEBUG5: 					Reached decomposition sub-parent G1000064
-DEBUG5: 					Reached decomposition sub-parent G1000059
-DEBUG5: 					Reached decomposition sub-parent G1000046
 DEBUG5: 					Reached decomposition sub-parent G1000041
+DEBUG5: 					Reached decomposition sub-parent G1000046
+DEBUG5: 					Reached decomposition sub-parent G1000059
+DEBUG5: 					Reached decomposition sub-parent G1000064
 DEBUG5: 					Reached decomposition sub-parent G1000051
+DEBUG5: 					Reached decomposition sub-parent G1000031
 DEBUG5: 					Reached decomposition sub-parent G1000068
 DEBUG5: 					Reached decomposition sub-parent G1000074
 DEBUG5: 					Reached decomposition sub-parent G1000051
@@ -543,13 +543,13 @@ DEBUG2: 		Launching the algorithm...
 DEBUG3: 			Converting module to ZBDD: G1000000
 DEBUG4: 				Limit on product order: 20
 DEBUG4: 				Minimizing ZBDD...
-DEBUG4: 				# of ZBDD nodes created: 93426
-DEBUG4: 				# of entries in unique table: 58062
+DEBUG4: 				# of ZBDD nodes created: 97124
+DEBUG4: 				# of entries in unique table: 58497
 DEBUG4: 				# of entries in AND table: 0
 DEBUG4: 				# of entries in OR table: 0
 DEBUG4: 				# of entries in subsume table: 0
 DEBUG4: 				# of entries in minimal table: 0
-DEBUG4: 				# of SetNodes in ZBDD: 4234
+DEBUG4: 				# of SetNodes in ZBDD: 4266
 DEBUG4: 				# of products: 46188
 DEBUG3: 			Getting products from minimized ZBDD: G1000000
 DEBUG4: 				# of generated products: 46188

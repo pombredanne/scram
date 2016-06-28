@@ -283,18 +283,18 @@ DEBUG5: 					Clearing gate descendant marks...
 DEBUG5: 					Descendant marks are clear!
 DEBUG5: 					Clearing gate descendant marks...
 DEBUG5: 					Descendant marks are clear!
-DEBUG5: 					Reached decomposition sub-parent G1000033
-DEBUG5: 					Reached decomposition sub-parent G1000065
-DEBUG5: 					Reached decomposition sub-parent G1000047
 DEBUG5: 					Reached decomposition sub-parent G1000042
 DEBUG5: 					Reached decomposition sub-parent G1000068
+DEBUG5: 					Reached decomposition sub-parent G1000047
 DEBUG5: 					Reached decomposition sub-parent G1000060
-DEBUG5: 					Reached decomposition sub-parent G1000031
-DEBUG5: 					Reached decomposition sub-parent G1000059
+DEBUG5: 					Reached decomposition sub-parent G1000033
+DEBUG5: 					Reached decomposition sub-parent G1000065
 DEBUG5: 					Reached decomposition sub-parent G1000041
 DEBUG5: 					Reached decomposition sub-parent G1000046
+DEBUG5: 					Reached decomposition sub-parent G1000059
 DEBUG5: 					Reached decomposition sub-parent G1000064
 DEBUG5: 					Reached decomposition sub-parent G1000051
+DEBUG5: 					Reached decomposition sub-parent G1000031
 DEBUG5: 					Reached decomposition sub-parent G1000068
 DEBUG5: 					Reached decomposition sub-parent G1000074
 DEBUG5: 					Reached decomposition sub-parent G1000051
@@ -326,20 +326,20 @@ DEBUG5: 					Clearing node order marks...
 DEBUG5: 					Node order marks are clear!
 DEBUG2: 		Launching the algorithm...
 DEBUG3: 			Converting Boolean graph into BDD...
-DEBUG4: 				# of BDD vertices created: 23918
-DEBUG4: 				# of entries in unique table: 19382
+DEBUG4: 				# of BDD vertices created: 24361
+DEBUG4: 				# of entries in unique table: 19746
 DEBUG4: 				# of entries in AND table: 0
 DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of ITE in BDD: 9203
+DEBUG4: 				# of ITE in BDD: 9489
 DEBUG2: 		Creating ZBDD from BDD: G0
 DEBUG4: 				Limit on product order: 20
-DEBUG4: 				# of ZBDD nodes created: 36617
-DEBUG4: 				# of entries in unique table: 36616
+DEBUG4: 				# of ZBDD nodes created: 37786
+DEBUG4: 				# of entries in unique table: 37785
 DEBUG4: 				# of entries in AND table: 0
 DEBUG4: 				# of entries in OR table: 0
-DEBUG4: 				# of entries in subsume table: 134252
-DEBUG4: 				# of entries in minimal table: 16717
-DEBUG4: 				# of SetNodes in ZBDD: 4210
+DEBUG4: 				# of entries in subsume table: 137417
+DEBUG4: 				# of entries in minimal table: 17447
+DEBUG4: 				# of SetNodes in ZBDD: 4236
 DEBUG4: 				# of products: 46188
 DEBUG3: 			Getting products from minimized ZBDD: G0
 DEBUG4: 				# of generated products: 46188
