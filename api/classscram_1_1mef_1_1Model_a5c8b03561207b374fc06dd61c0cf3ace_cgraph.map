@@ -1,0 +1,14 @@
+<map id="scram::mef::Model::ccf_groups" name="scram::mef::Model::ccf_groups">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1Model.xhtml#ab2c529b0b484653d9834b2357a3232db" title="Adds a basic event that is used in this model. " alt="" coords="205,5,344,47"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1Model.xhtml#aa071b5b312ba998375a246d516c2d234" title="Adds a CCF group that is used in this model&#39;s fault trees. " alt="" coords="205,71,344,112"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1Model.xhtml#a52dd79392036c36ac613f6d6fe21c592" title="Adds a fault tree into the model container. " alt="" coords="205,136,344,177"/>
+<area shape="rect" id="node5" href="$classscram_1_1mef_1_1Model.xhtml#ae9c29a5358f8c38ba1ea4d5990c112e0" title="Adds a gate that is used in this model&#39;s fault trees or components. " alt="" coords="205,201,344,243"/>
+<area shape="rect" id="node6" href="$classscram_1_1mef_1_1Model.xhtml#a1a68e09d766974684ee5a15a7c9572ec" title="Adds a house event that is used in this model. " alt="" coords="205,267,344,308"/>
+<area shape="rect" id="node7" href="$classscram_1_1mef_1_1Model.xhtml#ae2080e08c0fd0137e57a29830d1b9cdc" title="Adds a parameter that is used in this model&#39;s expressions. " alt="" coords="205,332,344,373"/>
+<area shape="rect" id="node8" href="$classscram_1_1mef_1_1Model.xhtml#ae7266a6fb9b501538885c208dfc934f6" title="Binds a formula with its argument event. " alt="" coords="205,397,344,439"/>
+<area shape="rect" id="node9" href="$classscram_1_1mef_1_1Model.xhtml#ab0ac16c0222b9718760e19a65e736093" title="Finds an entity (parameter, basic and house event, gate) from a reference. " alt="" coords="205,463,344,504"/>
+<area shape="rect" id="node10" href="$element_8h.xhtml#a34a172bfae7e234836f4ca9cc55a193d" title="Computes the full path of an element. " alt="" coords="192,553,357,579"/>
+<area shape="rect" id="node11" href="$classscram_1_1mef_1_1Model.xhtml#ac100f59b5e4163a617b5d3b893afd3f9" title="Finds an entity (parameter, basic and house event, gate) from a reference. " alt="" coords="205,604,344,645"/>
+<area shape="rect" id="node12" href="$classscram_1_1mef_1_1Model.xhtml#ad94f586b7fe8d530e74ca6188d76632f" title="Finds an entity (parameter, basic and house event, gate) from a reference. " alt="" coords="205,669,344,711"/>
+<area shape="rect" id="node13" href="$classscram_1_1mef_1_1Model.xhtml#a0ccac47c51f11484aed5e7cf3bdd73dd" title="Finds an entity (parameter, basic and house event, gate) from a reference. " alt="" coords="205,735,344,776"/>
+</map>

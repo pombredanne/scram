@@ -1,0 +1,13 @@
+<map id="scram::core::Preprocessor::DetectDistributivity" name="scram::core::Preprocessor::DetectDistributivity">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Preprocessor.xhtml#a4737f354474154b3cea9773c25616d27" title="Detects and manipulates AND and OR gate distributivity for the whole graph. " alt="" coords="229,39,405,80"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1Preprocessor.xhtml#a4b29173b8f6d18031d7a8cacbac15ce1" title="Manipulates gates with distributive arguments. " alt="" coords="229,136,405,177"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1Preprocessor.xhtml#ae483f228040c0d2422792c9cf0d05886" title="Clears all NULL type gates registered for removal by algorithms or other preprocessing functions..." alt="" coords="457,5,633,47"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1Preprocessor.xhtml#a860e7142f3e0b33ca799f1d8218eb091" title="Propagate NULL type gates bottom&#45;up. " alt="" coords="684,5,860,47"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1Preprocessor.xhtml#a4931fe17580d91b31d8c2077f64dc728" title="Propagates a Boolean constant bottom&#45;up. " alt="" coords="908,5,1084,47"/>
+<area shape="rect" id="node7" href="$classscram_1_1core_1_1Preprocessor.xhtml#a29d3775965ee487d000591739fdbaa4b" title="Detects relationships between the gate and its distributive arguments to remove unnecessary candidate..." alt="" coords="457,71,633,112"/>
+<area shape="rect" id="node8" href="$classscram_1_1core_1_1Preprocessor.xhtml#af9b5fba2247a02afe6cf480a405b6ca0" title="Finds intersections of common arguments of gates. " alt="" coords="457,136,633,177"/>
+<area shape="rect" id="node9" href="$classscram_1_1core_1_1Preprocessor.xhtml#a51340a3bcfa9785e430bab27ee08bbbf" title="Groups distributive gate arguments for future factorization. " alt="" coords="457,201,633,243"/>
+<area shape="rect" id="node12" href="$classscram_1_1core_1_1Preprocessor.xhtml#a2557ab80c04d7f91372992edfbedd93a" title="Transforms distributive of arguments gates into a new subgraph. " alt="" coords="453,267,636,308"/>
+<area shape="rect" id="node10" href="$classscram_1_1core_1_1Preprocessor.xhtml#a3c51e098f0ff45be068f68296323f45f" title="Finds an optimal way of grouping options. " alt="" coords="684,201,860,243"/>
+<area shape="rect" id="node11" href="$classscram_1_1core_1_1Preprocessor.xhtml#adbaee2a993e0538280dc437d0a3b849f" title="Finds the starting option for group formation. " alt="" coords="908,201,1084,243"/>
+</map>

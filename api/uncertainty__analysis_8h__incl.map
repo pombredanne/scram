@@ -1,0 +1,12 @@
+<map id="uncertainty_analysis.h" name="uncertainty_analysis.h">
+<area shape="rect" id="node4" href="$analysis_8h.xhtml" title="Common facilities for all analysis classes. " alt="" coords="25,229,106,256"/>
+<area shape="rect" id="node8" href="$settings_8h.xhtml" title="Builder for settings. " alt="" coords="78,311,157,338"/>
+<area shape="rect" id="node9" href="$probability__analysis_8h.xhtml" title="Contains functionality to do numerical analysis of probabilities. " alt="" coords="1288,80,1435,107"/>
+<area shape="rect" id="node10" href="$bdd_8h.xhtml" title="Fault tree analysis with the Binary Decision Diagram algorithms. " alt="" coords="1399,229,1454,256"/>
+<area shape="rect" id="node18" href="$boolean__graph_8h.xhtml" title="Classes and facilities to represent simplified fault trees as Boolean graphs with event and gate indi..." alt="" coords="1095,311,1212,338"/>
+<area shape="rect" id="node27" href="$fault__tree__analysis_8h.xhtml" title="Fault Tree Analysis. " alt="" coords="598,155,741,181"/>
+<area shape="rect" id="node22" href="$ext_8h.xhtml" title="Helpful facilities as an extension to the standard library or Boost. " alt="" coords="1065,401,1116,427"/>
+<area shape="rect" id="node24" href="$linear__map_8h.xhtml" title="Implementation of a vector&#45;based map for a small number of entries. " alt="" coords="1399,401,1495,427"/>
+<area shape="rect" id="node29" href="$logger_8h.xhtml" title="Logging capability for various purposes, such as warnings and debugging. " alt="" coords="950,311,1018,338"/>
+<area shape="rect" id="node32" href="$preprocessor_8h.xhtml" title="A collection of Boolean graph preprocessing algorithms that simplify fault trees for analysis..." alt="" coords="681,229,789,256"/>
+</map>

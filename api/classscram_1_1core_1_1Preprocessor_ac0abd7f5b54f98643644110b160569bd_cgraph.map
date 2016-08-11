@@ -1,0 +1,8 @@
+<map id="scram::core::Preprocessor::ProcessMultipleDefinitions" name="scram::core::Preprocessor::ProcessMultipleDefinitions">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Preprocessor.xhtml#ac3279b95fc83a2ae909c011de083d57e" title="Clears all constant gates registered for removal by algorithms or other preprocessing functions..." alt="" coords="239,8,415,49"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1Preprocessor.xhtml#ae483f228040c0d2422792c9cf0d05886" title="Clears all NULL type gates registered for removal by algorithms or other preprocessing functions..." alt="" coords="463,71,639,112"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1Preprocessor.xhtml#ae0bdf196274427420631bc20f95cb72a" title="Traverses the Boolean graph to collect multiple definitions of gates. " alt="" coords="239,127,415,168"/>
+<area shape="rect" id="node7" href="$classscram_1_1core_1_1Preprocessor.xhtml#a26434bec1bc5a496f80c9cbad1ed3a62" title="Replaces one gate in the graph with another. " alt="" coords="239,192,415,233"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1Preprocessor.xhtml#a4931fe17580d91b31d8c2077f64dc728" title="Propagates a Boolean constant bottom&#45;up. " alt="" coords="463,5,639,47"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1Preprocessor.xhtml#a860e7142f3e0b33ca799f1d8218eb091" title="Propagate NULL type gates bottom&#45;up. " alt="" coords="687,5,863,47"/>
+</map>

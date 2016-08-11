@@ -1,0 +1,7 @@
+<map id="scram::core::ImportanceAnalysis::GatherImportantEvents" name="scram::core::ImportanceAnalysis::GatherImportantEvents">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1BooleanGraph.xhtml#a11d6f8ffabe49a67c5d1aa5cb39386d9" title="Helper function to map the results of the indexation to the original basic events. " alt="" coords="285,59,466,101"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1ImportanceAnalysis.xhtml#ae73b6d9e7fcedd463c2e095c4cb23cb7" title="scram::core::ImportanceAnalysis\l::important_events" alt="" coords="268,125,483,166"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1Ite.xhtml#a55a7d6955f67d68f01287950c7efc782" title="Recovers a shared pointer to Ite from a pointer to Vertex. " alt="" coords="306,191,445,217"/>
+<area shape="rect" id="node3" href="$boolean__graph_8cc.xhtml#a8f04430e7ed0fd624250f5c67af9c464" title="Prints Boolean graph nodes in the Aralia format. " alt="" coords="531,29,693,56"/>
+<area shape="rect" id="node4" href="$fault__tree__analysis_8cc.xhtml#ae462a016941b9c817b69891ea5dfd1e1" title="Prints a collection of products to the standard error. " alt="" coords="549,104,675,131"/>
+</map>

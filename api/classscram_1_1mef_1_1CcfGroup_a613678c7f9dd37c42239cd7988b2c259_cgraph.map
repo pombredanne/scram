@@ -1,0 +1,11 @@
+<map id="scram::mef::CcfGroup::AddFactor" name="scram::mef::CcfGroup::AddFactor">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1CcfGroup.xhtml#ab399c5ed0c1d7d0a316ac3b7244b7eb9" title="Processes the given factors and members to create common cause failure probabilities and new events t..." alt="" coords="205,123,357,164"/>
+<area shape="rect" id="node9" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a31cbe59ce89f295de7bb810d8b75990e" title="Validates the setup for the CCF model and group. " alt="" coords="605,253,757,295"/>
+<area shape="rect" id="node10" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a25e28f28d5ebf344bc17dc7d0c50a497" title="Checks if the provided distribution is between 0 and 1. " alt="" coords="205,312,357,353"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a870cff942d6ce90dc50de37e17a151ee" title="scram::mef::CcfGroup\l::factors" alt="" coords="405,5,557,47"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1Element.xhtml#adb401e2ca84aa98cb60797bec2500a81" title="scram::mef::Element\l::name" alt="" coords="805,188,949,229"/>
+<area shape="rect" id="node5" href="$classscram_1_1mef_1_1CcfGroup.xhtml#ac2e32b2b8b441c3605780181651af31c" title="scram::mef::CcfGroup\l::members" alt="" coords="405,123,557,164"/>
+<area shape="rect" id="node8" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a89c5531144ef16c6f28be333166ab839" title="scram::mef::CcfGroup\l::distribution" alt="" coords="405,188,557,229"/>
+<area shape="rect" id="node6" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a723878c7c836a52cf9edb5c8d1a37868" title="Adds the distribution that describes the probability of basic events in this CCF group. " alt="" coords="605,123,757,164"/>
+<area shape="rect" id="node7" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a8321bf4372a0575c88b7162716469d15" title="Adds a basic event into this CCF group. " alt="" coords="605,188,757,229"/>
+</map>

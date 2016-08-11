@@ -1,0 +1,28 @@
+<map id="ext.h" name="ext.h">
+<area shape="rect" id="node2" href="$boolean__graph_8h.xhtml" title="Classes and facilities to represent simplified fault trees as Boolean graphs with event and gate indi..." alt="" coords="542,80,659,107"/>
+<area shape="rect" id="node4" href="$bdd_8cc.xhtml" title="Implementation of BDD fault tree analysis algorithms. " alt="" coords="738,379,799,405"/>
+<area shape="rect" id="node8" href="$risk__analysis_8cc.xhtml" title="Implementation of risk analysis handler. " alt="" coords="778,528,894,555"/>
+<area shape="rect" id="node9" href="$zbdd_8cc.xhtml" title="Implementation of Zero&#45;Suppressed BDD algorithms. " alt="" coords="970,379,1038,405"/>
+<area shape="rect" id="node24" href="$preprocessor_8cc.xhtml" title="Implementation of preprocessing algorithms. " alt="" coords="164,229,279,256"/>
+<area shape="rect" id="node25" href="$element_8cc.xhtml" title="Implementation of helper features for all elements of the analysis. " alt="" coords="1098,80,1185,107"/>
+<area shape="rect" id="node26" href="$expression_8cc.xhtml" title="Implementation of the expression base class. " alt="" coords="1209,80,1312,107"/>
+<area shape="rect" id="node27" href="$model_8cc.xhtml" title="Implementation of functions in Model class. " alt="" coords="1336,80,1411,107"/>
+<area shape="rect" id="node3" href="$bdd_8h.xhtml" title="Fault tree analysis with the Binary Decision Diagram algorithms. " alt="" coords="673,229,728,256"/>
+<area shape="rect" id="node6" href="$mocus_8h.xhtml" title="Fault tree analysis with the MOCUS algorithm. " alt="" coords="874,379,946,405"/>
+<area shape="rect" id="node16" href="$probability__analysis_8h.xhtml" title="Contains functionality to do numerical analysis of probabilities. " alt="" coords="351,304,498,331"/>
+<area shape="rect" id="node20" href="$boolean__graph_8cc.xhtml" title="Implementation of indexed nodes, variables, gates, and the Boolean graph. " alt="" coords="538,155,662,181"/>
+<area shape="rect" id="node21" href="$fault__tree__analysis_8h.xhtml" title="Fault Tree Analysis. " alt="" coords="304,229,446,256"/>
+<area shape="rect" id="node23" href="$preprocessor_8h.xhtml" title="A collection of Boolean graph preprocessing algorithms that simplify fault trees for analysis..." alt="" coords="304,155,412,181"/>
+<area shape="rect" id="node5" href="$zbdd_8h.xhtml" title="Zero&#45;Suppressed Binary Decision Diagram facilities. " alt="" coords="839,304,900,331"/>
+<area shape="rect" id="node10" href="$importance__analysis_8h.xhtml" title="Contains functionality to do numerical analysis of importance factors. " alt="" coords="511,379,663,405"/>
+<area shape="rect" id="node7" href="$mocus_8cc.xhtml" title="Implementation of the MOCUS algorithm. " alt="" coords="874,453,953,480"/>
+<area shape="rect" id="node11" href="$importance__analysis_8cc.xhtml" title="Implementations of functions to provide quantitative importance informations. " alt="" coords="504,453,662,480"/>
+<area shape="rect" id="node12" href="$reporter_8h.xhtml" title="Reporter of results. " alt="" coords="59,528,136,555"/>
+<area shape="rect" id="node15" href="$risk__analysis_8h.xhtml" title="Contains the main system for performing analysis. " alt="" coords="298,453,407,480"/>
+<area shape="rect" id="node13" href="$reporter_8cc.xhtml" title="Implements Reporter class. " alt="" coords="56,603,140,629"/>
+<area shape="rect" id="node14" href="$scram_8cc.xhtml" title="Main entrance. " alt="" coords="206,603,282,629"/>
+<area shape="rect" id="node17" href="$probability__analysis_8cc.xhtml" title="Implementations of functions to provide probability analysis. " alt="" coords="282,379,436,405"/>
+<area shape="rect" id="node18" href="$uncertainty__analysis_8h.xhtml" title="Provides functionality for uncertainty analysis with Monte Carlo method. " alt="" coords="55,379,207,405"/>
+<area shape="rect" id="node19" href="$uncertainty__analysis_8cc.xhtml" title="Implements the functionality to run Monte Carlo simulations. " alt="" coords="114,453,273,480"/>
+<area shape="rect" id="node22" href="$fault__tree__analysis_8cc.xhtml" title="Implementation of fault tree analysis. " alt="" coords="58,304,207,331"/>
+</map>

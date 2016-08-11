@@ -1,0 +1,20 @@
+<map id="initializer.cc" name="initializer.cc">
+<area shape="rect" id="node2" href="$initializer_8h.xhtml" title="A facility that processes input files into analysis constructs. " alt="" coords="1229,95,1313,121"/>
+<area shape="rect" id="node17" href="$error_8h.xhtml" title="Exceptions for SCRAM. " alt="" coords="2979,497,3037,524"/>
+<area shape="rect" id="node39" href="$cycle_8h.xhtml" title="Validation facilities to detect and print cycles in graphs. " alt="" coords="1437,348,1501,375"/>
+<area shape="rect" id="node40" href="$env_8h.xhtml" title="Environmental Variables. " alt="" coords="3131,497,3186,524"/>
+<area shape="rect" id="node41" href="$arithmetic_8h.xhtml" title="A collection of arithmetic expressions. " alt="" coords="387,423,544,449"/>
+<area shape="rect" id="node42" href="$exponential_8h.xhtml" title="Expressions and distributions that are described with exponential formulas. " alt="" coords="1885,95,2051,121"/>
+<area shape="rect" id="node44" href="$random__deviate_8h.xhtml" title="A collection of deviate expressions with random distributions sampled at run&#45;time. " alt="" coords="93,348,285,375"/>
+<area shape="rect" id="node45" href="$logger_8h.xhtml" title="Logging capability for various purposes, such as warnings and debugging. " alt="" coords="2835,95,2903,121"/>
+<area shape="rect" id="node47" href="$xml_8h.xhtml" title="XML helper facilities to work with libxml++. " alt="" coords="2642,184,2697,211"/>
+<area shape="rect" id="node10" href="$ccf__group_8h.xhtml" title="Functional containers for basic events grouped by common cause failure. " alt="" coords="941,348,1032,375"/>
+<area shape="rect" id="node11" href="$element_8h.xhtml" title="Helper classes, structs, and properties common to all other classes. " alt="" coords="897,572,975,599"/>
+<area shape="rect" id="node16" href="$event_8h.xhtml" title="Contains event classes for fault trees. " alt="" coords="1278,423,1343,449"/>
+<area shape="rect" id="node19" href="$expression_8h.xhtml" title="Provides the base class for all expressions and units for expression values. " alt="" coords="803,497,899,524"/>
+<area shape="rect" id="node20" href="$constant_8h.xhtml" title="Constant expressions that cannot have uncertainties. " alt="" coords="513,348,663,375"/>
+<area shape="rect" id="node21" href="$fault__tree_8h.xhtml" title="Fault Tree and Component containers. " alt="" coords="1227,266,1314,293"/>
+<area shape="rect" id="node23" href="$parameter_8h.xhtml" title="Parameter expressions that act like a shareable variable. " alt="" coords="1528,423,1619,449"/>
+<area shape="rect" id="node24" href="$model_8h.xhtml" title="Representation for a model container for risk analysis. " alt="" coords="1161,184,1229,211"/>
+<area shape="rect" id="node27" href="$settings_8h.xhtml" title="Builder for settings. " alt="" coords="2875,497,2954,524"/>
+</map>

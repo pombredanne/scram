@@ -1,0 +1,4 @@
+<map id="scram::core::Preprocessor::GatherNodes" name="scram::core::Preprocessor::GatherNodes">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Preprocessor.xhtml#a9caf4677a024ed935d831210b57b8ed9" title="Gathers nodes in the sub&#45;graph. " alt="" coords="253,5,429,47"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1CustomPreprocessor_3_01Mocus_01_4.xhtml#ac9bf09a678efc5e6846aa0c3145fc490" title="Performs processing of a fault tree to simplify the structure to normalized (OR/AND gates only)..." alt="" coords="229,71,452,112"/>
+</map>

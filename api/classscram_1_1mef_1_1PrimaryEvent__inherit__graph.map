@@ -1,0 +1,9 @@
+<map id="scram::mef::PrimaryEvent" name="scram::mef::PrimaryEvent">
+<area shape="rect" id="node7" href="$classscram_1_1mef_1_1BasicEvent.xhtml" title="Representation of a basic event in a fault tree. " alt="" coords="128,557,291,767"/>
+<area shape="rect" id="node9" href="$classscram_1_1mef_1_1HouseEvent.xhtml" title="Representation of a house event in a fault tree. " alt="" coords="315,616,483,708"/>
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1Event.xhtml" title="Abstract base class for general fault tree events. " alt="" coords="239,233,369,355"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1Element.xhtml" title="Mixin class that represents any element of analysis that can have extra descriptions, such as attributes and a label. " alt="" coords="5,5,149,185"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1Role.xhtml" title="Mixin class that manages private or public roles for elements as needed. " alt="" coords="173,35,296,156"/>
+<area shape="rect" id="node5" href="$classscram_1_1mef_1_1Id.xhtml" title="Mixin class for assigning unique identifiers to elements. " alt="" coords="320,42,427,149"/>
+<area shape="rect" id="node8" href="$classscram_1_1mef_1_1CcfEvent.xhtml" title="A basic event that represents a multiple failure of a group of events due to a common cause..." alt="" coords="134,815,285,936"/>
+</map>

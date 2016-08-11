@@ -1,0 +1,11 @@
+<map id="scram::core::Preprocessor::NormalizeGates" name="scram::core::Preprocessor::NormalizeGates">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Preprocessor.xhtml#afb4e28af2f1ec12db694af6e93ffbd1d" title="Assigns order for Boolean graph variables. " alt="" coords="247,5,423,47"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1Preprocessor.xhtml#ae483f228040c0d2422792c9cf0d05886" title="Clears all NULL type gates registered for removal by algorithms or other preprocessing functions..." alt="" coords="247,71,423,112"/>
+<area shape="rect" id="node7" href="$classscram_1_1core_1_1Preprocessor.xhtml#abfe2eda90c983750e28db49900a4909d" title="Normalizes complex gates into OR, AND gates. " alt="" coords="247,136,423,177"/>
+<area shape="rect" id="node10" href="$classscram_1_1core_1_1Preprocessor.xhtml#a6ee8f65454835d8de931a2d38bf8b276" title="Notifies all parents of negative gates, such as NOT, NOR, and NAND, before transforming these gates i..." alt="" coords="229,201,440,243"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1Preprocessor.xhtml#ada629022465a68893952232659d41e11" title="Assigns topological ordering to nodes of the Boolean Graph. " alt="" coords="488,5,664,47"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1Preprocessor.xhtml#a860e7142f3e0b33ca799f1d8218eb091" title="Propagate NULL type gates bottom&#45;up. " alt="" coords="488,71,664,112"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1Preprocessor.xhtml#a4931fe17580d91b31d8c2077f64dc728" title="Propagates a Boolean constant bottom&#45;up. " alt="" coords="712,71,888,112"/>
+<area shape="rect" id="node8" href="$classscram_1_1core_1_1Preprocessor.xhtml#a45cf08c3809e801be50eda53dd68fca6" title="Normalizes a gate with XOR logic. " alt="" coords="488,136,664,177"/>
+<area shape="rect" id="node9" href="$classscram_1_1core_1_1Preprocessor.xhtml#a56b5719bcfcfd1678928befe31d9b729" title="Normalizes a VOTE gate with a vote number. " alt="" coords="488,201,664,243"/>
+</map>

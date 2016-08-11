@@ -1,0 +1,7 @@
+<map id="zbdd.h" name="zbdd.h">
+<area shape="rect" id="node11" href="$bdd_8h.xhtml" title="Fault tree analysis with the Binary Decision Diagram algorithms. " alt="" coords="784,80,839,107"/>
+<area shape="rect" id="node16" href="$boolean__graph_8h.xhtml" title="Classes and facilities to represent simplified fault trees as Boolean graphs with event and gate indi..." alt="" coords="753,162,870,189"/>
+<area shape="rect" id="node25" href="$settings_8h.xhtml" title="Builder for settings. " alt="" coords="465,162,544,189"/>
+<area shape="rect" id="node19" href="$ext_8h.xhtml" title="Helpful facilities as an extension to the standard library or Boost. " alt="" coords="549,251,599,278"/>
+<area shape="rect" id="node21" href="$linear__map_8h.xhtml" title="Implementation of a vector&#45;based map for a small number of entries. " alt="" coords="967,251,1063,278"/>
+</map>

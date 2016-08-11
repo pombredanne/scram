@@ -1,0 +1,10 @@
+<map id="scram::core::Preprocessor::RunPhaseOne" name="scram::core::Preprocessor::RunPhaseOne">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Preprocessor.xhtml#a2b6705e815fa3d02119c405b483766d5" title="Runs the default preprocessing that achieves the graph in a normal form. " alt="" coords="229,121,437,147"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1FaultTreeAnalyzer.xhtml#af6d3e735d4200c3efed0164c58aabf57" title="Runs fault tree analysis with the given algorithm. " alt="" coords="494,5,699,47"/>
+<area shape="rect" id="node7" href="$classscram_1_1core_1_1ProbabilityAnalyzer_3_01Bdd_01_4.xhtml#a517506c181102100cc6a3e96710813c6" title="Calculates the total probability with a different set of probability values than the one given upon c..." alt="" coords="491,70,703,126"/>
+<area shape="rect" id="node8" href="$classscram_1_1core_1_1CustomPreprocessor_3_01Bdd_01_4.xhtml#a8cf4307236cd521e39a2c6feb21f3214" title="Performs preprocessing for analyses with Binary Decision Diagrams. " alt="" coords="485,149,708,191"/>
+<area shape="rect" id="node9" href="$classscram_1_1core_1_1CustomPreprocessor_3_01Zbdd_01_4.xhtml#a5185075f852c647c7aa4313d23420ee5" title="Performs preprocessing for analyses with Zero&#45;Suppressed Binary Decision Diagrams. " alt="" coords="485,215,708,256"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a7aed757ac5a7a96878c2706a7a9710bb" title="Analyzes the model and performs computations specified in the settings. " alt="" coords="756,5,932,47"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a337f7e9fe02b1581e872590d6f7baa01" title="scram::core::RiskAnalysis\l::model" alt="" coords="980,5,1156,47"/>
+<area shape="rect" id="node6" href="$reporter_8cc.xhtml#ad6460094a94fb73e56c2a4a5efc598ed" title="Describes all performed analyses deduced from settings. " alt="" coords="1204,5,1420,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="scram::core::Analysis::AddWarning" name="scram::core::Analysis::AddWarning">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1ProbabilityAnalysis.xhtml#ab68a356b0bdeb793d30d3b6e84847d12" title="Performs quantitative analysis on the supplied fault tree. " alt="" coords="225,5,385,47"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1FaultTreeAnalysis.xhtml#a87d670c8f26414bdf60d0f14ba904619" title="Converts resultant sets of basic event indices to strings for future reporting. " alt="" coords="203,71,407,112"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a7aed757ac5a7a96878c2706a7a9710bb" title="Analyzes the model and performs computations specified in the settings. " alt="" coords="455,5,631,47"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a337f7e9fe02b1581e872590d6f7baa01" title="scram::core::RiskAnalysis\l::model" alt="" coords="679,5,855,47"/>
+<area shape="rect" id="node5" href="$reporter_8cc.xhtml#ad6460094a94fb73e56c2a4a5efc598ed" title="Describes all performed analyses deduced from settings. " alt="" coords="903,5,1119,47"/>
+</map>

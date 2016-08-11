@@ -1,0 +1,6 @@
+<map id="scram::mef::Role::base_path" name="scram::mef::Role::base_path">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1Id.xhtml#a170b11fbe61285a335f0908f96b02d59" title="Mangles the element name to be unique. " alt="" coords="260,5,387,32"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1Parameter.xhtml#adc65022ef0cc3955e9bb81d63a437809" title="Creates a parameter as a variable for future references. " alt="" coords="451,23,607,65"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1Initializer.xhtml#a8fb6959baa83f7619b3ca9ed8423d40a" title="Reads input files with the structure of analysis constructs. " alt="" coords="249,107,397,149"/>
+<area shape="rect" id="node5" href="$structscram_1_1mef_1_1Initializer_1_1Extractor_3_01Histogram_00-1_01_4.xhtml#ac0e94ff09dd707d3c253937a172e7fc7" title="Constructs Histogram deviate expression expression arguments in XML elements. " alt="" coords="244,172,403,228"/>
+</map>

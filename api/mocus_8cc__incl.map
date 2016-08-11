@@ -1,0 +1,10 @@
+<map id="mocus.cc" name="mocus.cc">
+<area shape="rect" id="node2" href="$mocus_8h.xhtml" title="Fault tree analysis with the MOCUS algorithm. " alt="" coords="627,80,699,107"/>
+<area shape="rect" id="node29" href="$logger_8h.xhtml" title="Logging capability for various purposes, such as warnings and debugging. " alt="" coords="1623,311,1691,338"/>
+<area shape="rect" id="node6" href="$boolean__graph_8h.xhtml" title="Classes and facilities to represent simplified fault trees as Boolean graphs with event and gate indi..." alt="" coords="187,311,304,338"/>
+<area shape="rect" id="node19" href="$settings_8h.xhtml" title="Builder for settings. " alt="" coords="1469,311,1547,338"/>
+<area shape="rect" id="node21" href="$zbdd_8h.xhtml" title="Zero&#45;Suppressed Binary Decision Diagram facilities. " alt="" coords="632,155,693,181"/>
+<area shape="rect" id="node13" href="$ext_8h.xhtml" title="Helpful facilities as an extension to the standard library or Boost. " alt="" coords="659,401,709,427"/>
+<area shape="rect" id="node15" href="$linear__map_8h.xhtml" title="Implementation of a vector&#45;based map for a small number of entries. " alt="" coords="437,401,533,427"/>
+<area shape="rect" id="node25" href="$bdd_8h.xhtml" title="Fault tree analysis with the Binary Decision Diagram algorithms. " alt="" coords="778,229,833,256"/>
+</map>

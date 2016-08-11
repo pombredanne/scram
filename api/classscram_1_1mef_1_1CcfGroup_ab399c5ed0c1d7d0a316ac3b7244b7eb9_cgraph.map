@@ -1,0 +1,8 @@
+<map id="scram::mef::CcfGroup::ApplyModel" name="scram::mef::CcfGroup::ApplyModel">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a89c5531144ef16c6f28be333166ab839" title="scram::mef::CcfGroup\l::distribution" alt="" coords="205,5,357,47"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a870cff942d6ce90dc50de37e17a151ee" title="scram::mef::CcfGroup\l::factors" alt="" coords="205,71,357,112"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1CcfGroup.xhtml#ac2e32b2b8b441c3605780181651af31c" title="scram::mef::CcfGroup\l::members" alt="" coords="205,136,357,177"/>
+<area shape="rect" id="node6" href="$classscram_1_1mef_1_1Element.xhtml#adb401e2ca84aa98cb60797bec2500a81" title="scram::mef::Element\l::name" alt="" coords="605,136,749,177"/>
+<area shape="rect" id="node5" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a723878c7c836a52cf9edb5c8d1a37868" title="Adds the distribution that describes the probability of basic events in this CCF group. " alt="" coords="405,71,557,112"/>
+<area shape="rect" id="node7" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a8321bf4372a0575c88b7162716469d15" title="Adds a basic event into this CCF group. " alt="" coords="405,136,557,177"/>
+</map>

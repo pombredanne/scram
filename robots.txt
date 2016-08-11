@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://scram-pra.org/sitemap.xml

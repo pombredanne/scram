@@ -1,0 +1,23 @@
+<map id="scram::mef::Element::name" name="scram::mef::Element::name">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1Component.xhtml#a96be4497b7269c094864d096ee0c789c" title="Adds a CCF group and its members into this component container. " alt="" coords="197,71,360,112"/>
+<area shape="rect" id="node5" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a723878c7c836a52cf9edb5c8d1a37868" title="Adds the distribution that describes the probability of basic events in this CCF group. " alt="" coords="203,421,355,463"/>
+<area shape="rect" id="node7" href="$classscram_1_1mef_1_1CcfGroup.xhtml#ab399c5ed0c1d7d0a316ac3b7244b7eb9" title="Processes the given factors and members to create common cause failure probabilities and new events t..." alt="" coords="675,585,827,627"/>
+<area shape="rect" id="node9" href="$structscram_1_1mef_1_1Initializer_1_1Extractor_3_01Histogram_00-1_01_4.xhtml#ac0e94ff09dd707d3c253937a172e7fc7" title="Constructs Histogram deviate expression expression arguments in XML elements. " alt="" coords="1107,471,1265,527"/>
+<area shape="rect" id="node10" href="$reporter_8cc.xhtml#ad6460094a94fb73e56c2a4a5efc598ed" title="Describes all performed analyses deduced from settings. " alt="" coords="643,371,859,412"/>
+<area shape="rect" id="node11" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a8321bf4372a0575c88b7162716469d15" title="Adds a basic event into this CCF group. " alt="" coords="203,487,355,528"/>
+<area shape="rect" id="node12" href="$classscram_1_1mef_1_1Component.xhtml#a63441da08667fe6826f3ae0c0a5a94fe" title="Recursively traverses components to gather gates relevant to the whole component. ..." alt="" coords="197,5,360,47"/>
+<area shape="rect" id="node14" href="$classscram_1_1mef_1_1Element.xhtml#a7db1af9365e25a0ce332a1745441630a" title="scram::mef::Element\l::GetAttribute" alt="" coords="207,188,351,229"/>
+<area shape="rect" id="node15" href="$classscram_1_1mef_1_1Gate.xhtml#abeb0d7efda63e877e150f54719da1ba8" title="Checks if a gate is initialized correctly. " alt="" coords="412,195,591,222"/>
+<area shape="rect" id="node16" href="$classscram_1_1mef_1_1Element.xhtml#ae291c86b68c20c0e2b845fbbc8bddb25" title="Checks if the element has a given attribute. " alt="" coords="207,253,351,295"/>
+<area shape="rect" id="node18" href="$classscram_1_1mef_1_1Id.xhtml#a170b11fbe61285a335f0908f96b02d59" title="Mangles the element name to be unique. " alt="" coords="215,858,342,885"/>
+<area shape="rect" id="node19" href="$classscram_1_1mef_1_1Parameter.xhtml#adc65022ef0cc3955e9bb81d63a437809" title="Creates a parameter as a variable for future references. " alt="" coords="423,829,579,871"/>
+<area shape="rect" id="node20" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a31cbe59ce89f295de7bb810d8b75990e" title="Validates the setup for the CCF model and group. " alt="" coords="203,741,355,783"/>
+<area shape="rect" id="node21" href="$classscram_1_1mef_1_1PhiFactorModel.xhtml#a8acc9117aefc7fe25bef61fe216b7ab1" title="In addition to the default validation of CcfGroup, checks if the given factors&#39; sum is 1..." alt="" coords="408,691,595,732"/>
+<area shape="rect" id="node22" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a25e28f28d5ebf344bc17dc7d0c50a497" title="Checks if the provided distribution is between 0 and 1. " alt="" coords="675,651,827,692"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1Component.xhtml#a483f7a67e2197449902bddc48756e2cd" title="scram::mef::Component\l::components" alt="" coords="420,71,583,112"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1Initializer.xhtml#a8fb6959baa83f7619b3ca9ed8423d40a" title="Reads input files with the structure of analysis constructs. " alt="" coords="677,188,825,229"/>
+<area shape="rect" id="node6" href="$classscram_1_1mef_1_1CcfGroup.xhtml#ac2e32b2b8b441c3605780181651af31c" title="scram::mef::CcfGroup\l::members" alt="" coords="425,472,577,513"/>
+<area shape="rect" id="node8" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a613678c7f9dd37c42239cd7988b2c259" title="Adds a CCF factor for the specified model. " alt="" coords="907,617,1059,659"/>
+<area shape="rect" id="node13" href="$classscram_1_1mef_1_1FaultTree.xhtml#a9535bd49edb4598ead887faf8dadd9f2" title="Collects top event gates in this fault tree with components. " alt="" coords="426,5,577,47"/>
+<area shape="rect" id="node17" href="$classscram_1_1mef_1_1Element.xhtml#ad5906432084ef153b708dbe77307d4f9" title="Adds an attribute to the attribute map. " alt="" coords="429,249,573,291"/>
+</map>

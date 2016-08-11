@@ -1,0 +1,10 @@
+<map id="scram::core::Analysis::settings" name="scram::core::Analysis::settings">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a7aed757ac5a7a96878c2706a7a9710bb" title="Analyzes the model and performs computations specified in the settings. " alt="" coords="229,5,405,47"/>
+<area shape="rect" id="node4" href="$reporter_8cc.xhtml#ad6460094a94fb73e56c2a4a5efc598ed" title="Describes all performed analyses deduced from settings. " alt="" coords="704,35,920,76"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1ProbabilityAnalyzer_3_01Bdd_01_4.xhtml#a517506c181102100cc6a3e96710813c6" title="Calculates the total probability with a different set of probability values than the one given upon c..." alt="" coords="211,122,423,178"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1FaultTreeAnalysis.xhtml#a87d670c8f26414bdf60d0f14ba904619" title="Converts resultant sets of basic event indices to strings for future reporting. " alt="" coords="215,201,419,243"/>
+<area shape="rect" id="node7" href="$classscram_1_1Reporter.xhtml#a6a6327c0fc2d0e8ab6ec24a145ae1abe" title="Reports the results of risk analysis on a model. " alt="" coords="236,267,399,294"/>
+<area shape="rect" id="node9" href="$classscram_1_1core_1_1UncertaintyAnalysis.xhtml#a9fd9c1d88b952527b0ee0132d15c45b3" title="Samples each uncertain event probability. " alt="" coords="203,319,432,360"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a337f7e9fe02b1581e872590d6f7baa01" title="scram::core::RiskAnalysis\l::model" alt="" coords="480,5,656,47"/>
+<area shape="rect" id="node8" href="$classscram_1_1Reporter.xhtml#acf35ee03ce2ffc48aed92a578842b9d6" title="A convenience function to generate the report into a file. " alt="" coords="487,267,649,294"/>
+</map>

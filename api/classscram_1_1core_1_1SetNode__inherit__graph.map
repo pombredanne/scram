@@ -1,0 +1,6 @@
+<map id="scram::core::SetNode" name="scram::core::SetNode">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1NonTerminal.xhtml" title="{scram::core::NonTerminal\l\&lt; SetNode \&gt;\n||+ NonTerminal()\l+ index()\l+ order()\l+ module()\l+ module()\l+ coherent()\l+ coherent()\l+ high()\l+ low()\l+ mark()\l+ mark()\l# ~NonTerminal()\l# CutBranches()\l* get_high_id\l* get_low_id\l}" alt="" coords="46,691,219,988"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1Vertex.xhtml" title="{scram::core::Vertex\l\&lt; SetNode \&gt;\n||+ Vertex()\l+ id()\l+ terminal()\l+ use_count()\l+ unique()\l# ~Vertex()\l}" alt="" coords="5,404,143,569"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1Vertex.xhtml" title="Representation of a vertex in BDD graphs. " alt="" coords="112,132,281,283"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1NonTerminal.xhtml" title="Representation of non&#45;terminal vertices in BDD graphs. " alt="" coords="167,345,373,628"/>
+</map>

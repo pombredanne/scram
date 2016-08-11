@@ -1,0 +1,16 @@
+<map id="scram::core::Preprocessor::ProcessCommonNode" name="scram::core::Preprocessor::ProcessCommonNode">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Preprocessor.xhtml#ac3279b95fc83a2ae909c011de083d57e" title="Clears all constant gates registered for removal by algorithms or other preprocessing functions..." alt="" coords="235,7,411,48"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1Preprocessor.xhtml#ae483f228040c0d2422792c9cf0d05886" title="Clears all NULL type gates registered for removal by algorithms or other preprocessing functions..." alt="" coords="464,71,640,112"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1Preprocessor.xhtml#a5eb477e9ecd0552b2b554d7df56df652" title="Clears all the ancestor marks used in Boolean optimization steps. " alt="" coords="235,127,411,168"/>
+<area shape="rect" id="node7" href="$classscram_1_1core_1_1Preprocessor.xhtml#ad79145fdd5487ef0537728f74e6a94e4" title="Detects if parents of a node are redundant. " alt="" coords="233,192,412,233"/>
+<area shape="rect" id="node8" href="$classscram_1_1core_1_1Preprocessor.xhtml#a4539f18d3dde97514ca267b41d30d220" title="Collects failure or success destinations and marks non&#45;redundant nodes. " alt="" coords="235,257,411,299"/>
+<area shape="rect" id="node9" href="$classscram_1_1core_1_1Preprocessor.xhtml#a3b83bc14261cee28f0e1553222b7d5e5" title="Marks ancestor gates true. " alt="" coords="235,323,411,364"/>
+<area shape="rect" id="node10" href="$classscram_1_1core_1_1Preprocessor.xhtml#a6edfe2a6d9836942944921a8de0c011e" title="Detects if parents of a node are redundant. " alt="" coords="229,388,416,429"/>
+<area shape="rect" id="node11" href="$classscram_1_1core_1_1Preprocessor.xhtml#aa42b66bb888f665bc68324cca15452ad" title="Transforms failure or success destination according to the logic and the common node. " alt="" coords="231,453,414,495"/>
+<area shape="rect" id="node13" href="$classscram_1_1core_1_1Preprocessor.xhtml#ae9a8bac98061d7f82633486ed6a36861" title="Propagates failure or success of a common node by setting its ancestors&#39; optimization values to 1 or ..." alt="" coords="235,519,411,560"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1Preprocessor.xhtml#a4931fe17580d91b31d8c2077f64dc728" title="Propagates a Boolean constant bottom&#45;up. " alt="" coords="464,5,640,47"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1Preprocessor.xhtml#a860e7142f3e0b33ca799f1d8218eb091" title="Propagate NULL type gates bottom&#45;up. " alt="" coords="688,5,864,47"/>
+<area shape="rect" id="node12" href="$classscram_1_1core_1_1Preprocessor.xhtml#a26434bec1bc5a496f80c9cbad1ed3a62" title="Replaces one gate in the graph with another. " alt="" coords="464,453,640,495"/>
+<area shape="rect" id="node14" href="$classscram_1_1core_1_1Node.xhtml#a90ef93c4b0667215d2a8c3a3eb4f3822" title="scram::core::Node::\lopti_value" alt="" coords="483,519,621,560"/>
+<area shape="rect" id="node15" href="$classscram_1_1core_1_1Preprocessor.xhtml#a019e679ad9077caac8c48253d42647ff" title="Determines if a gate fails or succeeds due to failed/succeeded arguments. " alt="" coords="464,584,640,625"/>
+</map>

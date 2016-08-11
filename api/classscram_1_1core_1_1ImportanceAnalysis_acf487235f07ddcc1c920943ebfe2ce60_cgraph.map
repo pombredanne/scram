@@ -1,0 +1,9 @@
+<map id="scram::core::ImportanceAnalysis::Analyze" name="scram::core::ImportanceAnalysis::Analyze">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Analysis.xhtml#a1a4f345f29240b0236853641f728a103" title="Adds time to the total analysis time. " alt="" coords="301,5,450,47"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1ImportanceAnalysis.xhtml#a0ef1904c30264176444741068337a38c" title="Gathers all events present in products. " alt="" coords="268,71,483,112"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1ImportanceAnalysis.xhtml#ae73b6d9e7fcedd463c2e095c4cb23cb7" title="scram::core::ImportanceAnalysis\l::important_events" alt="" coords="531,5,745,47"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1BooleanGraph.xhtml#a11d6f8ffabe49a67c5d1aa5cb39386d9" title="Helper function to map the results of the indexation to the original basic events. " alt="" coords="547,71,729,112"/>
+<area shape="rect" id="node8" href="$classscram_1_1core_1_1Ite.xhtml#a55a7d6955f67d68f01287950c7efc782" title="Recovers a shared pointer to Ite from a pointer to Vertex. " alt="" coords="569,137,707,163"/>
+<area shape="rect" id="node6" href="$boolean__graph_8cc.xhtml#a8f04430e7ed0fd624250f5c67af9c464" title="Prints Boolean graph nodes in the Aralia format. " alt="" coords="793,41,956,67"/>
+<area shape="rect" id="node7" href="$fault__tree__analysis_8cc.xhtml#ae462a016941b9c817b69891ea5dfd1e1" title="Prints a collection of products to the standard error. " alt="" coords="811,115,938,142"/>
+</map>

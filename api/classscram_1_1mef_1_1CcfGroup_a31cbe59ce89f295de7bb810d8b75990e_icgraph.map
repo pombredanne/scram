@@ -1,0 +1,5 @@
+<map id="scram::mef::CcfGroup::Validate" name="scram::mef::CcfGroup::Validate">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1CcfGroup.xhtml#a613678c7f9dd37c42239cd7988b2c259" title="Adds a CCF factor for the specified model. " alt="" coords="223,13,375,54"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1PhiFactorModel.xhtml#a8acc9117aefc7fe25bef61fe216b7ab1" title="In addition to the default validation of CcfGroup, checks if the given factors&#39; sum is 1..." alt="" coords="205,78,392,119"/>
+<area shape="rect" id="node3" href="$structscram_1_1mef_1_1Initializer_1_1Extractor_3_01Histogram_00-1_01_4.xhtml#ac0e94ff09dd707d3c253937a172e7fc7" title="Constructs Histogram deviate expression expression arguments in XML elements. " alt="" coords="440,5,599,61"/>
+</map>

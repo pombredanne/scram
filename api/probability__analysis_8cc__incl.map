@@ -1,0 +1,16 @@
+<map id="probability_analysis.cc" name="probability_analysis.cc">
+<area shape="rect" id="node2" href="$probability__analysis_8h.xhtml" title="Contains functionality to do numerical analysis of probabilities. " alt="" coords="1531,80,1677,107"/>
+<area shape="rect" id="node8" href="$settings_8h.xhtml" title="Builder for settings. " alt="" coords="2193,311,2271,338"/>
+<area shape="rect" id="node29" href="$logger_8h.xhtml" title="Logging capability for various purposes, such as warnings and debugging. " alt="" coords="2402,229,2470,256"/>
+<area shape="rect" id="node35" href="$event_8h.xhtml" title="Contains event classes for fault trees. " alt="" coords="2907,155,2973,181"/>
+<area shape="rect" id="node4" href="$analysis_8h.xhtml" title="Common facilities for all analysis classes. " alt="" coords="1973,229,2054,256"/>
+<area shape="rect" id="node9" href="$bdd_8h.xhtml" title="Fault tree analysis with the Binary Decision Diagram algorithms. " alt="" coords="949,229,1003,256"/>
+<area shape="rect" id="node18" href="$boolean__graph_8h.xhtml" title="Classes and facilities to represent simplified fault trees as Boolean graphs with event and gate indi..." alt="" coords="1181,311,1299,338"/>
+<area shape="rect" id="node27" href="$fault__tree__analysis_8h.xhtml" title="Fault Tree Analysis. " alt="" coords="2055,155,2198,181"/>
+<area shape="rect" id="node22" href="$ext_8h.xhtml" title="Helpful facilities as an extension to the standard library or Boost. " alt="" coords="1013,401,1064,427"/>
+<area shape="rect" id="node24" href="$linear__map_8h.xhtml" title="Implementation of a vector&#45;based map for a small number of entries. " alt="" coords="792,401,888,427"/>
+<area shape="rect" id="node32" href="$preprocessor_8h.xhtml" title="A collection of Boolean graph preprocessing algorithms that simplify fault trees for analysis..." alt="" coords="1687,229,1795,256"/>
+<area shape="rect" id="node36" href="$element_8h.xhtml" title="Helper classes, structs, and properties common to all other classes. " alt="" coords="3339,311,3418,338"/>
+<area shape="rect" id="node40" href="$error_8h.xhtml" title="Exceptions for SCRAM. " alt="" coords="2911,229,2969,256"/>
+<area shape="rect" id="node42" href="$expression_8h.xhtml" title="Provides the base class for all expressions and units for expression values. " alt="" coords="3195,229,3291,256"/>
+</map>

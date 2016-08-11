@@ -1,0 +1,17 @@
+<map id="scram::core::Node::Visit" name="scram::core::Node::Visit">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Preprocessor.xhtml#a394fb1b5b5f9ee31dc81ad8d64353ee3" title="Traverses the graph to find nodes that have more than one parent. " alt="" coords="192,156,368,197"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1Preprocessor.xhtml#aebc709ad2e097c24e837889a6a9e4696" title="Propagates failures of common nodes to detect redundancy. " alt="" coords="423,123,599,164"/>
+<area shape="rect" id="node16" href="$classscram_1_1core_1_1Preprocessor.xhtml#ae12f3096132d7f6e9daa779724255f7e" title="The Shannon decomposition for common nodes in the Boolean graph. " alt="" coords="416,188,607,229"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1Preprocessor.xhtml#a9d5f89471499508eb9e6c01ea43e0f15" title="Preprocessing phase of the original structure of the graph. " alt="" coords="655,156,831,197"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1Preprocessor.xhtml#a2b6705e815fa3d02119c405b483766d5" title="Runs the default preprocessing that achieves the graph in a normal form. " alt="" coords="1103,121,1311,147"/>
+<area shape="rect" id="node13" href="$classscram_1_1core_1_1Preprocessor.xhtml#abf2c66723172a85b2ae87ef2a034cd1f" title="Application of gate normalization. " alt="" coords="879,127,1055,168"/>
+<area shape="rect" id="node14" href="$classscram_1_1core_1_1Preprocessor.xhtml#a5c224938dfba861f061525658bd7b156" title="Propagation of complements. " alt="" coords="1119,185,1295,227"/>
+<area shape="rect" id="node15" href="$classscram_1_1core_1_1Preprocessor.xhtml#a3569bbcd5e863c750cdfa69115399600" title="The final phase that cleans up the graph, and puts the structure of the graph ready for analysis..." alt="" coords="879,244,1055,285"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1FaultTreeAnalyzer.xhtml#af6d3e735d4200c3efed0164c58aabf57" title="Runs fault tree analysis with the given algorithm. " alt="" coords="1367,5,1573,47"/>
+<area shape="rect" id="node10" href="$classscram_1_1core_1_1CustomPreprocessor_3_01Bdd_01_4.xhtml#a8cf4307236cd521e39a2c6feb21f3214" title="Performs preprocessing for analyses with Binary Decision Diagrams. " alt="" coords="1359,71,1581,112"/>
+<area shape="rect" id="node11" href="$classscram_1_1core_1_1CustomPreprocessor_3_01Zbdd_01_4.xhtml#a5185075f852c647c7aa4313d23420ee5" title="Performs preprocessing for analyses with Zero&#45;Suppressed Binary Decision Diagrams. " alt="" coords="1359,215,1581,256"/>
+<area shape="rect" id="node12" href="$classscram_1_1core_1_1ProbabilityAnalyzer_3_01Bdd_01_4.xhtml#a517506c181102100cc6a3e96710813c6" title="Calculates the total probability with a different set of probability values than the one given upon c..." alt="" coords="1364,135,1576,191"/>
+<area shape="rect" id="node7" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a7aed757ac5a7a96878c2706a7a9710bb" title="Analyzes the model and performs computations specified in the settings. " alt="" coords="1629,5,1805,47"/>
+<area shape="rect" id="node8" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a337f7e9fe02b1581e872590d6f7baa01" title="scram::core::RiskAnalysis\l::model" alt="" coords="1853,5,2029,47"/>
+<area shape="rect" id="node9" href="$reporter_8cc.xhtml#ad6460094a94fb73e56c2a4a5efc598ed" title="Describes all performed analyses deduced from settings. " alt="" coords="2077,5,2293,47"/>
+</map>

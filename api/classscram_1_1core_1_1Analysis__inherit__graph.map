@@ -1,0 +1,16 @@
+<map id="scram::core::Analysis" name="scram::core::Analysis">
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1FaultTreeAnalysis.xhtml" title="Fault tree analysis functionality. " alt="" coords="19,405,223,571"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1ImportanceAnalysis.xhtml" title="Analysis of importance factors of risk model variables. " alt="" coords="273,413,487,563"/>
+<area shape="rect" id="node10" href="$classscram_1_1core_1_1ProbabilityAnalysis.xhtml" title="Main quantitative analysis class. " alt="" coords="511,420,673,556"/>
+<area shape="rect" id="node14" href="$classscram_1_1core_1_1RiskAnalysis.xhtml" title="Main system that performs analyses. " alt="" coords="697,347,873,629"/>
+<area shape="rect" id="node15" href="$classscram_1_1core_1_1UncertaintyAnalysis.xhtml" title="Uncertainty analysis and statistics for top event or gate probabilities and probability distributions..." alt="" coords="898,369,1089,607"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1FaultTreeAnalyzer.xhtml" title="Fault tree analysis facility with specific algorithms. " alt="" coords="5,686,211,822"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1ImportanceAnalyzerBase.xhtml" title="{scram::core::ImportanceAnalyzer\lBase\&lt; Bdd \&gt;\n||+ ImportanceAnalyzerBase()\l# ~ImportanceAnalyzerBase()\l# prob_analyzer()\l}" alt="" coords="111,907,326,1028"/>
+<area shape="rect" id="node8" href="$classscram_1_1core_1_1ImportanceAnalyzerBase.xhtml" title="Base class for analyzers of importance factors with the help from probability analyzers. " alt="" coords="286,693,501,815"/>
+<area shape="rect" id="node7" href="$classscram_1_1core_1_1ImportanceAnalyzer_3_01Bdd_01_4.xhtml" title="Specialization of importance analyzer with Binary Decision Diagrams. " alt="" coords="111,1092,326,1184"/>
+<area shape="rect" id="node9" href="$classscram_1_1core_1_1ImportanceAnalyzer.xhtml" title="Analyzer of importance factors with the help from probability analyzers. " alt="" coords="350,921,565,1013"/>
+<area shape="rect" id="node11" href="$classscram_1_1core_1_1ProbabilityAnalyzerBase.xhtml" title="Base class for Probability analyzers. " alt="" coords="587,679,778,829"/>
+<area shape="rect" id="node12" href="$classscram_1_1core_1_1ProbabilityAnalyzer.xhtml" title="Fault&#45;tree&#45;analysis&#45;aware probability analyzer. " alt="" coords="589,921,776,1013"/>
+<area shape="rect" id="node13" href="$classscram_1_1core_1_1ProbabilityAnalyzer_3_01Bdd_01_4.xhtml" title="Specialization of probability analyzer with Binary Decision Diagrams. " alt="" coords="800,892,987,1043"/>
+<area shape="rect" id="node16" href="$classscram_1_1core_1_1UncertaintyAnalyzer.xhtml" title="Uncertainty analysis facility. " alt="" coords="910,708,1077,800"/>
+</map>

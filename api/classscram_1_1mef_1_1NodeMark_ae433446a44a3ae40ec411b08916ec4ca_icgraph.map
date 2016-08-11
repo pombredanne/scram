@@ -1,0 +1,4 @@
+<map id="scram::mef::NodeMark::mark" name="scram::mef::NodeMark::mark">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1FaultTree.xhtml#a9535bd49edb4598ead887faf8dadd9f2" title="Collects top event gates in this fault tree with components. " alt="" coords="213,5,364,47"/>
+<area shape="rect" id="node3" href="$structscram_1_1mef_1_1Initializer_1_1Extractor_3_01Histogram_00-1_01_4.xhtml#ac0e94ff09dd707d3c253937a172e7fc7" title="Constructs Histogram deviate expression expression arguments in XML elements. " alt="" coords="209,70,368,126"/>
+</map>

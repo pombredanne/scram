@@ -1,0 +1,6 @@
+<map id="scram::mef::BetaDeviate::Max" name="scram::mef::BetaDeviate::Max">
+<area shape="rect" id="node2" href="$classscram_1_1Random.xhtml#a0c493e04d7d5b75b4a5a6aeed776d799" title="RNG from a Beta distribution. " alt="" coords="255,5,461,32"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1Expression.xhtml#a6b2d7f3d3abf98002c8cccee426edecc" title="scram::mef::Expression::Max" alt="" coords="261,56,455,83"/>
+<area shape="rect" id="node5" href="$classscram_1_1mef_1_1Expression.xhtml#a5cf00d8b2ff843ad029a501a89ee572a" title="scram::mef::Expression\l::Sample" alt="" coords="277,107,439,149"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1Expression.xhtml#ac7e0dd118eafdfa943944172c1625a4e" title="scram::mef::Expression\l::Mean" alt="" coords="509,49,671,90"/>
+</map>

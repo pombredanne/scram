@@ -1,0 +1,8 @@
+<map id="scram::mef::Parameter::Parameter" name="scram::mef::Parameter::Parameter">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1Role.xhtml#ab91a51488ee8c4ed054de1e8450c8a59" title="scram::mef::Role::base_path" alt="" coords="416,5,607,32"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1Element.xhtml#a6624149e8114742886dd7513171b6a81" title="Constructs an element with an original name. " alt="" coords="217,203,361,245"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1Id.xhtml#a170b11fbe61285a335f0908f96b02d59" title="Mangles the element name to be unique. " alt="" coords="225,51,352,77"/>
+<area shape="rect" id="node5" href="$classscram_1_1mef_1_1Element.xhtml#adb401e2ca84aa98cb60797bec2500a81" title="scram::mef::Element\l::name" alt="" coords="439,61,583,102"/>
+<area shape="rect" id="node6" href="$classscram_1_1mef_1_1Role.xhtml#aa1843c29411c29b27d79414d34525bbc" title="scram::mef::Role::role" alt="" coords="435,135,587,161"/>
+<area shape="rect" id="node7" href="$classscram_1_1mef_1_1Role.xhtml#a7e4df5c4a7911c56389f9a57af37c5ad" title="Sets the role of an element upon creation. " alt="" coords="209,269,368,296"/>
+</map>

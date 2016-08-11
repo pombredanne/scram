@@ -1,0 +1,24 @@
+<map id="reporter.h" name="reporter.h">
+<area shape="rect" id="node4" href="$event_8h.xhtml" title="Contains event classes for fault trees. " alt="" coords="3464,393,3529,420"/>
+<area shape="rect" id="node16" href="$fault__tree__analysis_8h.xhtml" title="Fault Tree Analysis. " alt="" coords="1828,319,1970,345"/>
+<area shape="rect" id="node21" href="$settings_8h.xhtml" title="Builder for settings. " alt="" coords="1578,475,1657,502"/>
+<area shape="rect" id="node37" href="$importance__analysis_8h.xhtml" title="Contains functionality to do numerical analysis of importance factors. " alt="" coords="867,155,1019,181"/>
+<area shape="rect" id="node43" href="$probability__analysis_8h.xhtml" title="Contains functionality to do numerical analysis of probabilities. " alt="" coords="1259,237,1406,263"/>
+<area shape="rect" id="node44" href="$model_8h.xhtml" title="Representation for a model container for risk analysis. " alt="" coords="3298,155,3366,181"/>
+<area shape="rect" id="node50" href="$risk__analysis_8h.xhtml" title="Contains the main system for performing analysis. " alt="" coords="1616,80,1726,107"/>
+<area shape="rect" id="node52" href="$uncertainty__analysis_8h.xhtml" title="Provides functionality for uncertainty analysis with Monte Carlo method. " alt="" coords="1283,155,1435,181"/>
+<area shape="rect" id="node53" href="$xml__stream_8h.xhtml" title="Facilities to stream data in XML format. " alt="" coords="4018,80,4119,107"/>
+<area shape="rect" id="node9" href="$element_8h.xhtml" title="Helper classes, structs, and properties common to all other classes. " alt="" coords="3665,565,3744,591"/>
+<area shape="rect" id="node13" href="$error_8h.xhtml" title="Exceptions for SCRAM. " alt="" coords="3980,475,4039,502"/>
+<area shape="rect" id="node15" href="$expression_8h.xhtml" title="Provides the base class for all expressions and units for expression values. " alt="" coords="3252,475,3348,502"/>
+<area shape="rect" id="node19" href="$analysis_8h.xhtml" title="Common facilities for all analysis classes. " alt="" coords="1526,393,1608,420"/>
+<area shape="rect" id="node22" href="$boolean__graph_8h.xhtml" title="Classes and facilities to represent simplified fault trees as Boolean graphs with event and gate indi..." alt="" coords="1234,475,1351,502"/>
+<area shape="rect" id="node31" href="$logger_8h.xhtml" title="Logging capability for various purposes, such as warnings and debugging. " alt="" coords="2298,475,2366,502"/>
+<area shape="rect" id="node34" href="$preprocessor_8h.xhtml" title="A collection of Boolean graph preprocessing algorithms that simplify fault trees for analysis..." alt="" coords="1894,393,2002,420"/>
+<area shape="rect" id="node26" href="$ext_8h.xhtml" title="Helpful facilities as an extension to the standard library or Boost. " alt="" coords="956,565,1007,591"/>
+<area shape="rect" id="node28" href="$linear__map_8h.xhtml" title="Implementation of a vector&#45;based map for a small number of entries. " alt="" coords="786,565,882,591"/>
+<area shape="rect" id="node38" href="$bdd_8h.xhtml" title="Fault tree analysis with the Binary Decision Diagram algorithms. " alt="" coords="933,393,988,420"/>
+<area shape="rect" id="node47" href="$ccf__group_8h.xhtml" title="Functional containers for basic events grouped by common cause failure. " alt="" coords="3036,319,3127,345"/>
+<area shape="rect" id="node48" href="$fault__tree_8h.xhtml" title="Fault Tree and Component containers. " alt="" coords="3130,237,3217,263"/>
+<area shape="rect" id="node49" href="$parameter_8h.xhtml" title="Parameter expressions that act like a shareable variable. " alt="" coords="3714,393,3804,420"/>
+</map>

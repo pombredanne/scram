@@ -1,0 +1,28 @@
+<map id="scram::mef::Initializer::Initializer" name="scram::mef::Initializer::Initializer">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1Formula.xhtml#a243f57b581bfa385b985d0b47bdfe114" title="Adds an event into the arguments list. " alt="" coords="225,5,368,47"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1Element.xhtml#ad5906432084ef153b708dbe77307d4f9" title="Adds an attribute to the attribute map. " alt="" coords="225,641,369,683"/>
+<area shape="rect" id="node6" href="$classscram_1_1mef_1_1Component.xhtml#a1be65078ba5109830655771471d0cdf5" title="Adds a basic event into this component container. " alt="" coords="215,136,378,177"/>
+<area shape="rect" id="node7" href="$classscram_1_1mef_1_1Component.xhtml#a96be4497b7269c094864d096ee0c789c" title="Adds a CCF group and its members into this component container. " alt="" coords="446,977,609,1019"/>
+<area shape="rect" id="node8" href="$classscram_1_1mef_1_1Component.xhtml#a223846da8f5f38b27022cdb1143a258e" title="Adds a member component container into this component container. " alt="" coords="215,253,378,295"/>
+<area shape="rect" id="node9" href="$classscram_1_1mef_1_1Component.xhtml#a13bc34265c377d54084bda85de38e5ef" title="Adds a gate into this component container. " alt="" coords="215,319,378,360"/>
+<area shape="rect" id="node10" href="$classscram_1_1mef_1_1Component.xhtml#af39cf695b8aff1bbc17ee6545e3b33f2" title="Adds a house event into this component container. " alt="" coords="215,384,378,425"/>
+<area shape="rect" id="node11" href="$classscram_1_1mef_1_1Component.xhtml#a5b857d255c4d6471a7c0101c36493c75" title="Adds a parameter into this component container. " alt="" coords="215,449,378,491"/>
+<area shape="rect" id="node12" href="$classscram_1_1mef_1_1Role.xhtml#ab91a51488ee8c4ed054de1e8450c8a59" title="scram::mef::Role::base_path" alt="" coords="201,515,392,542"/>
+<area shape="rect" id="node13" href="$xml_8h.xhtml#ac6e06a790ddf60f0108718e37bb405ed" title="Initializes a DOM parser and converts library exceptions into local errors. " alt="" coords="202,590,391,617"/>
+<area shape="rect" id="node14" href="$classscram_1_1mef_1_1Parameter.xhtml#a20dae114ae08bde6eb550db6745a16cc" title="Sets the expression of this parameter. " alt="" coords="219,71,375,112"/>
+<area shape="rect" id="node16" href="$classscram_1_1mef_1_1BasicEvent.xhtml#adbe388b7612beddb5d1646805343b4c3" title="Sets the expression of this basic event. " alt="" coords="215,707,378,748"/>
+<area shape="rect" id="node18" href="$classscram_1_1mef_1_1Gate.xhtml#abde84a63a060e2424ab92431634f21d9" title="scram::mef::Gate::formula" alt="" coords="209,773,384,799"/>
+<area shape="rect" id="node19" href="$xml_8h.xhtml#a0c5491388e25d1f1badb26b56ef302e7" title="Returns Normalized (trimmed) string value of an XML element attribute. " alt="" coords="212,847,381,874"/>
+<area shape="rect" id="node20" href="$xml_8h.xhtml#a818b7826f3993c5ff58d45a237274285" title="Returns Normalized content of an XML text node. " alt="" coords="230,922,363,949"/>
+<area shape="rect" id="node21" href="$classscram_1_1Env.xhtml#a2c187e02af924b538ba19ba3608b88e2" title="scram::Env::input_schema" alt="" coords="207,973,386,999"/>
+<area shape="rect" id="node22" href="$classscram_1_1mef_1_1Element.xhtml#a87e90b86d7599c2f60d7a7b99ab52d20" title="scram::mef::Element\l::label" alt="" coords="225,1024,369,1065"/>
+<area shape="rect" id="node23" href="$classscram_1_1Error.xhtml#a35818dcc7c8dde101d4fd117adf47bc3" title="scram::Error::msg" alt="" coords="233,1090,360,1117"/>
+<area shape="rect" id="node24" href="$classscram_1_1mef_1_1Role.xhtml#aa1843c29411c29b27d79414d34525bbc" title="scram::mef::Role::role" alt="" coords="221,1141,373,1167"/>
+<area shape="rect" id="node25" href="$classscram_1_1mef_1_1Gate.xhtml#abeb0d7efda63e877e150f54719da1ba8" title="Checks if a gate is initialized correctly. " alt="" coords="207,202,386,229"/>
+<area shape="rect" id="node27" href="$xml_8h.xhtml#ab908f9834f69be3009ee07445b51a673" title="Helper function to statically cast to XML element. " alt="" coords="228,1266,365,1293"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1Element.xhtml#ae291c86b68c20c0e2b845fbbc8bddb25" title="Checks if the element has a given attribute. " alt="" coords="455,319,599,360"/>
+<area shape="rect" id="node5" href="$classscram_1_1mef_1_1Element.xhtml#adb401e2ca84aa98cb60797bec2500a81" title="scram::mef::Element\l::name" alt="" coords="663,287,807,328"/>
+<area shape="rect" id="node15" href="$classscram_1_1mef_1_1Expression.xhtml#ae7934df291c680fd99bdfe4090007543" title="Registers an additional argument expression. " alt="" coords="447,71,608,112"/>
+<area shape="rect" id="node17" href="$classscram_1_1mef_1_1PrimaryEvent.xhtml#aa2199d6fedce64816ee9118d12a911a8" title="scram::mef::PrimaryEvent\l::has_expression" alt="" coords="440,707,615,748"/>
+<area shape="rect" id="node26" href="$classscram_1_1mef_1_1Element.xhtml#a7db1af9365e25a0ce332a1745441630a" title="scram::mef::Element\l::GetAttribute" alt="" coords="455,253,599,295"/>
+</map>

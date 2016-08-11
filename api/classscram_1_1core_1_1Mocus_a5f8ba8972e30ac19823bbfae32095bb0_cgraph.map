@@ -1,0 +1,8 @@
+<map id="scram::core::Mocus::products" name="scram::core::Mocus::products">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Gate.xhtml#aa793eeaa12244c5b39a0d80e5b1518ae" title="scram::core::Gate::args" alt="" coords="203,5,363,32"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1BooleanGraph.xhtml#ac1b754a3afaf07be5cbec37c155ab634" title="scram::core::BooleanGraph\l::basic_events" alt="" coords="192,57,373,98"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1Gate.xhtml#a0d070ec20569129162398c73165f65bc" title="scram::core::Gate::\lcoherent" alt="" coords="215,122,350,163"/>
+<area shape="rect" id="node5" href="$classscram_1_1core_1_1Node.xhtml#a62121e217b0da73112af7e07275f2c15" title="scram::core::Node::\lindex" alt="" coords="213,187,352,229"/>
+<area shape="rect" id="node6" href="$classscram_1_1core_1_1Settings.xhtml#a0e43ec0f017d23a4fa4e376c4060d380" title="scram::core::Settings\l::limit_order" alt="" coords="209,253,356,294"/>
+<area shape="rect" id="node7" href="$classscram_1_1core_1_1Gate.xhtml#a93fa477d60140843c4abae7de52fffa1" title="scram::core::Gate::\lmodule" alt="" coords="215,318,350,359"/>
+</map>

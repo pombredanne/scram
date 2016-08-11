@@ -1,0 +1,8 @@
+<map id="scram::core::Settings::approximation" name="scram::core::Settings::approximation">
+<area shape="rect" id="node2" href="$classscram_1_1core_1_1Settings.xhtml#ad7b46344a4e25e34fa76bc9971f97eb9" title="Sets the algorithm for Qualitative analysis. " alt="" coords="215,5,361,47"/>
+<area shape="rect" id="node3" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a7aed757ac5a7a96878c2706a7a9710bb" title="Analyzes the model and performs computations specified in the settings. " alt="" coords="200,71,376,112"/>
+<area shape="rect" id="node6" href="$classscram_1_1Config.xhtml#ab0d7940fbb627fab9867821e133eab5d" title="A constructor with configurations for analysis. " alt="" coords="213,137,363,163"/>
+<area shape="rect" id="node7" href="$classscram_1_1core_1_1Settings.xhtml#a738f782afa0f5dba1ffec83caff540e3" title="Sets a flag to calculate prime implicants instead of minimal cut sets. " alt="" coords="215,188,361,229"/>
+<area shape="rect" id="node4" href="$classscram_1_1core_1_1RiskAnalysis.xhtml#a337f7e9fe02b1581e872590d6f7baa01" title="scram::core::RiskAnalysis\l::model" alt="" coords="424,71,600,112"/>
+<area shape="rect" id="node5" href="$reporter_8cc.xhtml#ad6460094a94fb73e56c2a4a5efc598ed" title="Describes all performed analyses deduced from settings. " alt="" coords="648,71,864,112"/>
+</map>

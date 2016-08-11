@@ -1,0 +1,11 @@
+<map id="scram::mef::Component::components" name="scram::mef::Component::components">
+<area shape="rect" id="node2" href="$classscram_1_1mef_1_1Component.xhtml#a1be65078ba5109830655771471d0cdf5" title="Adds a basic event into this component container. " alt="" coords="216,5,379,47"/>
+<area shape="rect" id="node3" href="$classscram_1_1mef_1_1Component.xhtml#a96be4497b7269c094864d096ee0c789c" title="Adds a CCF group and its members into this component container. " alt="" coords="216,71,379,112"/>
+<area shape="rect" id="node5" href="$classscram_1_1mef_1_1Component.xhtml#a223846da8f5f38b27022cdb1143a258e" title="Adds a member component container into this component container. " alt="" coords="216,136,379,177"/>
+<area shape="rect" id="node6" href="$classscram_1_1mef_1_1Component.xhtml#a13bc34265c377d54084bda85de38e5ef" title="Adds a gate into this component container. " alt="" coords="216,201,379,243"/>
+<area shape="rect" id="node7" href="$classscram_1_1mef_1_1Component.xhtml#af39cf695b8aff1bbc17ee6545e3b33f2" title="Adds a house event into this component container. " alt="" coords="216,267,379,308"/>
+<area shape="rect" id="node8" href="$classscram_1_1mef_1_1Component.xhtml#a5b857d255c4d6471a7c0101c36493c75" title="Adds a parameter into this component container. " alt="" coords="216,332,379,373"/>
+<area shape="rect" id="node9" href="$classscram_1_1mef_1_1Component.xhtml#a83d4c556f58ec061175b71895877375b" title="scram::mef::Component\l::gates" alt="" coords="216,397,379,439"/>
+<area shape="rect" id="node10" href="$classscram_1_1mef_1_1Component.xhtml#a63441da08667fe6826f3ae0c0a5a94fe" title="Recursively traverses components to gather gates relevant to the whole component. ..." alt="" coords="216,463,379,504"/>
+<area shape="rect" id="node4" href="$classscram_1_1mef_1_1Element.xhtml#adb401e2ca84aa98cb60797bec2500a81" title="scram::mef::Element\l::name" alt="" coords="427,267,571,308"/>
+</map>
