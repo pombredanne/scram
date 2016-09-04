@@ -1,3 +1,6 @@
 [submodule "tests/googletest"]
 	path = tests/googletest
 	url = https://github.com/rakhimov/googletest
+[submodule "src/cudd"]
+	path = src/cudd
+	url = https://github.com/rakhimov/cudd

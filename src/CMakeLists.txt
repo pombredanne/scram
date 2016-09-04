@@ -11,6 +11,20 @@ configure_file(
   )
 ################### End File Configurations ####################
 
+################## CUDD Configurations  #######################
+set(CUDD_BUILD_TESTS OFF)
+option(CUDD_ENABLE_DDDMP OFF)
+
+set(CURRENT_DEBUG_FLAGS "${CMAKE_CXX_FLAGS_DEBUG}")
+set(CMAKE_CXX_FLAGS_DEBUG "-g")
+
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/cudd")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/cudd/cplusplus")
+
+set(CMAKE_CXX_FLAGS_DEBUG "${CURRENT_DEBUG_FLAGS}")  # Restore the original flags.
+
+################### End CUDD Configurations ####################
+
 set(SCRAM_CORE_SRC
   "${CMAKE_CURRENT_SOURCE_DIR}/env.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/version.cc"
@@ -51,7 +65,7 @@ set_target_properties(scramcore
   INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib"
   )
 
-target_link_libraries(scramcore ${LIBS})
+target_link_libraries(scramcore cudd ${LIBS})
 
 if(WIN32)
   install(
