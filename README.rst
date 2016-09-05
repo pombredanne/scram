@@ -74,6 +74,26 @@ Package                Minimum Version
 ====================   ==================
 
 
+Git Submodules
+--------------
+
+====================   ==================
+Package                Version
+====================   ==================
+`CUDD`                 3.0.0
+`GoogleTest`           1.7.0
+====================   ==================
+
+To initialize submodules,
+this repository must be cloned recursively with ``git clone --recursive``,
+or the following ``update`` commands must be executed
+after a normal clone or *checkout*.
+
+.. code-block:: bash
+
+    git submodule update --init --recursive
+
+
 Optional Dependencies
 ---------------------
 
