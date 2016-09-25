@@ -1,0 +1,10 @@
+<cppdep>
+  <package-group outside="true" name="CppLib" path="/">
+    <package name="Include">
+      /usr/include
+    </package>
+  </package-group>
+  <package-group name="scram" path="./">
+    src
+  </package-group>
+</cppdep>
