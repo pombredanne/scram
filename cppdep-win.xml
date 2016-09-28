@@ -1,5 +1,5 @@
 <cppdep>
   <package-group name="scram" path="./">
-    src
+    <path>src</path>
   </package-group>
 </cppdep>
